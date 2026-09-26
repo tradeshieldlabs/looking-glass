@@ -4,12 +4,15 @@
   {
    "id": "taiwan",
    "title": "The Taipei Visit",
-   "dur": 74.8,
+   "dur": 46.4,
    "hd": "media/intro_taiwan.mp4",
    "sd": "media/intro_taiwan_480.mp4",
+   "pt": "media/intro_taiwan_p.mp4",
    "poster": "media/intro_taiwan.jpg",
-   "kb": 7617,
-   "kb_sd": 4263,
+   "poster_pt": "media/intro_taiwan_p.jpg",
+   "kb": 8318,
+   "kb_sd": 3829,
+   "kb_pt": 5775,
    "basis": [
     "China's president made a state visit to Washington, Sept. 22\u201324, 2026, pressing the U.S. to 'oppose' Taiwan independence (ISW, BBC, Guardian)",
     "A $14 billion Taiwan arms package has been delayed (ISW, National Post)"
@@ -18,12 +21,15 @@
   {
    "id": "korea",
    "title": "The Wonsan Test",
-   "dur": 73.1,
+   "dur": 41.0,
    "hd": "media/intro_korea.mp4",
    "sd": "media/intro_korea_480.mp4",
+   "pt": "media/intro_korea_p.mp4",
    "poster": "media/intro_korea.jpg",
-   "kb": 7592,
-   "kb_sd": 4343,
+   "poster_pt": "media/intro_korea_p.jpg",
+   "kb": 7513,
+   "kb_sd": 3520,
+   "kb_pt": 4954,
    "basis": [
     "North Korea test-fired two missiles from the Wonsan area on Sept. 20, 2026, later called a new Hwasong-11Ma hypersonic system (AP, Janes, TWZ)",
     "Pyongyang condemned U.S.\u2013South Korea\u2013Japan drills (CNN, PBS)"
@@ -32,15 +38,19 @@
   {
    "id": "shoal",
    "title": "Second Thomas Shoal",
-   "dur": 69.5,
+   "dur": 43.9,
    "hd": "media/intro_shoal.mp4",
    "sd": "media/intro_shoal_480.mp4",
+   "pt": "media/intro_shoal_p.mp4",
    "poster": "media/intro_shoal.jpg",
-   "kb": 7111,
-   "kb_sd": 4121,
+   "poster_pt": "media/intro_shoal_p.jpg",
+   "kb": 8535,
+   "kb_sd": 3956,
+   "kb_pt": 5854,
    "basis": [
     "On Sept. 24, 2026, PLA Navy and China Coast Guard ships blocked a Philippine resupply mission to BRP Sierra Madre at Second Thomas Shoal, warning of 'compulsory measures' (USNI News, Rappler, Philstar)"
    ]
   }
- ]
+ ],
+ "v": 2
 }

@@ -1,0 +1,577 @@
+{
+ "as_of": "2026-09-26",
+ "note": "Intro v2 (Drop 3a.3.1): ~40 s news cut per storyline. Real public-domain U.S. government / Philippine government footage and photos (media/src/pd/credits.json) where they exist; generated stills only for events that have no real footage (marked gen). Everything after the as-of date is fiction. Render: .venv/bin/python tools/render_intro2.py [id]",
+ "common_end": [
+  {
+   "src": "pd/p_capitol.jpg",
+   "kb": "in",
+   "fy": 0.45,
+   "tag": "WASHINGTON · 21:00 ET",
+   "head": "THE PRESIDENT ADDRESSES THE NATION",
+   "vo": [
+    [
+     "@anchor",
+     "Tonight, the President addresses the nation."
+    ]
+   ],
+   "hit": true
+  },
+  {
+   "src": "assets/intro_joint.webp",
+   "kb": "in",
+   "fx": 0.62,
+   "tag": "HOUSE CHAMBER · LIVE",
+   "head": "\"TONIGHT, WE ARE AT WAR\"",
+   "vo": [
+    [
+     "pres2",
+     "My fellow Americans. {PRES_LINE} Tonight, we are at war."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "title": true,
+   "min": 3.2
+  }
+ ],
+ "storylines": [
+  {
+   "id": "taiwan",
+   "title": "The Taipei Visit",
+   "anchor": "anchor_tw",
+   "reporter": "reporter_f",
+   "grade": "steel",
+   "music": {
+    "root": 38,
+    "prog": "dm",
+    "bpm": 112
+   },
+   "map": [
+    113,
+    17,
+    131,
+    32
+   ],
+   "pres_line": "At dawn, China attacked Taiwan and our forces in the Pacific.",
+   "ticker": [
+    "$14B Taiwan arms package released",
+    "Beijing: 'red line has been crossed'",
+    "Taiwan raises combat readiness",
+    "USS Abraham Lincoln leaves Guam",
+    "Markets halted in Tokyo, Taipei"
+   ],
+   "basis": [
+    "China's president made a state visit to Washington, Sept. 22–24, 2026, pressing the U.S. to 'oppose' Taiwan independence (ISW, BBC, Guardian)",
+    "A $14 billion Taiwan arms package has been delayed (ISW, National Post)"
+   ],
+   "shots": [
+    {
+     "src": "src/tw_codel.png",
+     "gen": true,
+     "kb": "in",
+     "fx": 0.45,
+     "tag": "TAIPEI · SEPT 30",
+     "head": "U.S. DELEGATION LANDS IN TAIPEI",
+     "vo": [
+      [
+       "@anchor",
+       "A U.S. delegation lands in Taipei. Beijing calls it a red line."
+      ]
+     ],
+     "loc": [
+      121.56,
+      25.04,
+      "TAIPEI"
+     ]
+    },
+    {
+     "src": "pd/v_strait.webm",
+     "t": 8.5,
+     "fx": 0.55,
+     "clip": 0.5,
+     "tag": "TAIWAN STRAIT · DAY 4",
+     "head": "CHINESE WARSHIP CUTS ACROSS U.S. DESTROYER",
+     "vo": [
+      [
+       "@anchor",
+       "In the Strait, a Chinese warship cuts off a U.S. destroyer."
+      ]
+     ],
+     "loc": [
+      119.8,
+      24.4,
+      "TAIWAN STRAIT"
+     ]
+    },
+    {
+     "src": "src/tw_drills.png",
+     "gen": true,
+     "shake": 1,
+     "fx": 0.6,
+     "tag": "AROUND TAIWAN · DAY 9",
+     "head": "PLA LIVE-FIRE 'STRAIT THUNDER' DRILLS",
+     "vo": [
+      [
+       "@reporter",
+       "Then, live-fire drills encircle the island."
+      ]
+     ],
+     "sfx": [
+      "launch"
+     ],
+     "hit": true
+    },
+    {
+     "src": "pd/p_p8.jpg",
+     "kb": "out",
+     "fx": 0.3,
+     "tag": "SOUTH OF TAIWAN · DAY 11",
+     "head": "NAVY P-8 DOWN · 9 AMERICANS MISSING",
+     "radio": "Mayday, mayday! Poseidon two-one!",
+     "vo": [
+      [
+       "@anchor",
+       "A Chinese jet clips a Navy P-8. Nine missing."
+      ]
+     ],
+     "loc": [
+      120.3,
+      21.3,
+      "P-8 DOWN"
+     ]
+    },
+    {
+     "src": "pd/v_hornet_lincoln.webm",
+     "t": 5.2,
+     "fx": 0.55,
+     "clip": 0.9,
+     "tag": "USS ABRAHAM LINCOLN · PHILIPPINE SEA",
+     "head": "LINCOLN STRIKE GROUP TURNS TOWARD TAIWAN",
+     "vo": [
+      [
+       "@anchor",
+       "The Lincoln strike group turns toward Taiwan."
+      ]
+     ],
+     "loc": [
+      127.5,
+      21.5,
+      "USS LINCOLN"
+     ],
+     "min": 3.4
+    },
+    {
+     "src": "src/tw_taipei.png",
+     "gen": true,
+     "shake": 2,
+     "kb": "in",
+     "fx": 0.5,
+     "tag": "TAIPEI · 05:40 LOCAL",
+     "head": "MISSILES HIT TAIPEI",
+     "vo": [
+      [
+       "@reporter",
+       "At dawn, the missiles fly."
+      ]
+     ],
+     "sfx": [
+      "siren",
+      "boom"
+     ],
+     "hit": true,
+     "flash": true,
+     "min": 2.8
+    },
+    {
+     "src": "pd/v_thaad.webm",
+     "t": 52.5,
+     "fx": 0.4,
+     "clip": 0.8,
+     "tag": "ANDERSEN AFB, GUAM",
+     "head": "GUAM UNDER ATTACK · DEFCON 2",
+     "vo": [
+      [
+       "gv2",
+       "Real world. Incoming missile. Seek shelter."
+      ],
+      [
+       "gv2",
+       "DEFCON two."
+      ]
+     ],
+     "loc": [
+      144.93,
+      13.58,
+      "GUAM"
+     ],
+     "box": [
+      112,
+      6,
+      150,
+      34
+     ],
+     "sfx": [
+      "boom",
+      "klaxon"
+     ],
+     "defcon": 2,
+     "defcon_at": 2.6
+    }
+   ]
+  },
+  {
+   "id": "korea",
+   "title": "The Wonsan Test",
+   "anchor": "anchor_kr",
+   "reporter": "reporter_f",
+   "grade": "night",
+   "music": {
+    "root": 40,
+    "prog": "em",
+    "bpm": 96
+   },
+   "map": [
+    123,
+    33,
+    133,
+    43
+   ],
+   "pres_line": "At dawn, North Korea attacked our ally, and China joined the assault.",
+   "ticker": [
+    "Pyongyang: new missile an 'incurable headache'",
+    "Seoul: missiles flew 450 and 600 km",
+    "Japan: both landed outside its EEZ",
+    "U.S. Forces Korea at highest alert",
+    "KOSPI trading suspended"
+   ],
+   "basis": [
+    "North Korea test-fired two missiles from the Wonsan area on Sept. 20, 2026, later called a new Hwasong-11Ma hypersonic system (AP, Janes, TWZ)",
+    "Pyongyang condemned U.S.–South Korea–Japan drills (CNN, PBS)"
+   ],
+   "shots": [
+    {
+     "src": "pd/v_nk.webm",
+     "t": 33.0,
+     "fx": 0.5,
+     "clip": 0.0,
+     "tag": "WONSAN · SEPT 20",
+     "head": "NORTH KOREA TESTS HYPERSONIC MISSILE",
+     "note": "U.S. intelligence animation",
+     "vo": [
+      [
+       "@anchor",
+       "North Korea fires a new hypersonic missile from Wonsan."
+      ]
+     ],
+     "loc": [
+      127.44,
+      39.15,
+      "WONSAN"
+     ]
+    },
+    {
+     "src": "pd/v_rokaf.webm",
+     "t": 58.0,
+     "fx": 0.5,
+     "clip": 0.4,
+     "tag": "OVER SOUTH KOREA",
+     "head": "B-52 AND ALLIED JETS: SHOW OF FORCE",
+     "vo": [
+      [
+       "@anchor",
+       "Washington answers with bombers over the peninsula."
+      ]
+     ]
+    },
+    {
+     "src": "pd/p_jsa.jpg",
+     "kb": "in",
+     "fx": 0.35,
+     "tag": "DMZ · DAY 6",
+     "head": "PYONGYANG DECLARES 'WARTIME STATE'",
+     "vo": [
+      [
+       "@reporter",
+       "Pyongyang declares a wartime state."
+      ]
+     ],
+     "loc": [
+      126.68,
+      37.96,
+      "DMZ"
+     ]
+    },
+    {
+     "src": "src/kr_island.png",
+     "gen": true,
+     "shake": 2,
+     "fx": 0.5,
+     "tag": "YEONPYEONG ISLAND · DAY 8",
+     "head": "NORTH KOREAN ARTILLERY STRIKES",
+     "vo": [
+      [
+       "@anchor",
+       "Then the guns open up on Yeonpyeong Island."
+      ]
+     ],
+     "sfx": [
+      "boom",
+      "boom"
+     ],
+     "hit": true,
+     "flash": true,
+     "loc": [
+      125.68,
+      37.66,
+      "YEONPYEONG"
+     ]
+    },
+    {
+     "src": "src/kr_seoul.png",
+     "gen": true,
+     "shake": 1,
+     "kb": "in",
+     "fx": 0.55,
+     "tag": "SEOUL · 23:10 KST",
+     "head": "MISSILES OVER SEOUL",
+     "vo": [
+      [
+       "@reporter",
+       "Tonight, missiles over Seoul."
+      ]
+     ],
+     "sfx": [
+      "siren"
+     ],
+     "min": 2.6
+    },
+    {
+     "src": "pd/v_sm2.webm",
+     "t": 7.0,
+     "fx": 0.4,
+     "clip": 0.9,
+     "tag": "SEA OF JAPAN",
+     "head": "U.S. DESTROYER FIRES INTERCEPTORS",
+     "radio": "Vampire, vampire, vampire. Birds away.",
+     "vo": [],
+     "min": 3.0,
+     "hit": true
+    },
+    {
+     "src": "src/kr_humphreys.png",
+     "gen": true,
+     "shake": 1,
+     "fx": 0.5,
+     "tag": "CAMP HUMPHREYS",
+     "head": "BALLISTIC MISSILES INBOUND",
+     "vo": [
+      [
+       "gv2",
+       "Incoming missile, Camp Humphreys. Seek shelter."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ],
+     "loc": [
+      127.03,
+      36.96,
+      "CAMP HUMPHREYS"
+     ]
+    },
+    {
+     "src": "pd/p_patriot.jpg",
+     "kb": "in",
+     "fx": 0.4,
+     "tag": "U.S. FORCES KOREA",
+     "head": "PATRIOT BATTERIES ON ALERT · DEFCON 2",
+     "defcon": 2,
+     "vo": [
+      [
+       "gv2",
+       "DEFCON two."
+      ]
+     ],
+     "sfx": [
+      "klaxon"
+     ],
+     "hit": true,
+     "min": 2.6
+    }
+   ]
+  },
+  {
+   "id": "shoal",
+   "title": "Second Thomas Shoal",
+   "anchor": "anchor_ph",
+   "reporter": "reporter_m",
+   "grade": "sun",
+   "music": {
+    "root": 41,
+    "prog": "fm",
+    "bpm": 104
+   },
+   "map": [
+    112,
+    5,
+    126,
+    19
+   ],
+   "pres_line": "At dawn, China attacked our ally, the Philippines, and American forces.",
+   "ticker": [
+    "Manila: China 'hindered' Ayungin resupply",
+    "PLA Navy warned of 'compulsory measures'",
+    "15 Chinese vessels shadowed supply boat",
+    "U.S. reaffirms Mutual Defense Treaty",
+    "Philippine peso hits record low"
+   ],
+   "basis": [
+    "On Sept. 24, 2026, PLA Navy and China Coast Guard ships blocked a Philippine resupply mission to BRP Sierra Madre at Second Thomas Shoal, warning of 'compulsory measures' (USNI News, Rappler, Philstar)"
+   ],
+   "shots": [
+    {
+     "src": "pd/v_cannon.webm",
+     "t": 5.5,
+     "fx": 0.45,
+     "clip": 0.6,
+     "tag": "SECOND THOMAS SHOAL · SEPT 24",
+     "head": "CHINA TURNS WATER CANNON ON MANILA'S BOATS",
+     "vo": [
+      [
+       "@anchor",
+       "At Second Thomas Shoal, China turns water cannon on Manila's boats."
+      ]
+     ],
+     "loc": [
+      115.86,
+      9.73,
+      "2ND THOMAS SHOAL"
+     ]
+    },
+    {
+     "src": "pd/v_ccg_sm.webm",
+     "t": 2.0,
+     "fx": 0.5,
+     "clip": 0.7,
+     "tag": "BRP SIERRA MADRE · AYUNGIN SHOAL",
+     "head": "CHINESE COAST GUARD SWARMS FILIPINO CREWS",
+     "vo": [
+      [
+       "@anchor",
+       "Chinese crews swarm the Filipino boats."
+      ]
+     ],
+     "min": 3.0
+    },
+    {
+     "src": "src/ph_ram.png",
+     "gen": true,
+     "shake": 2,
+     "fx": 0.5,
+     "tag": "AYUNGIN SHOAL · DAY 6",
+     "head": "SUPPLY BOAT RAMMED · 4 SAILORS KILLED",
+     "vo": [
+      [
+       "@anchor",
+       "A supply boat is rammed. Four Filipino sailors are killed."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ],
+     "hit": true,
+     "flash": true
+    },
+    {
+     "src": "pd/p_sierra.jpg",
+     "kb": "in",
+     "fy": 0.2,
+     "fx": 0.45,
+     "crop_bottom": 0.18,
+     "tag": "MANILA",
+     "head": "PHILIPPINES INVOKES DEFENSE TREATY WITH U.S.",
+     "vo": [
+      [
+       "@anchor",
+       "Manila invokes its defense treaty with Washington."
+      ]
+     ]
+    },
+    {
+     "src": "src/ph_base.png",
+     "gen": true,
+     "shake": 2,
+     "kb": "in",
+     "fx": 0.5,
+     "tag": "LUZON · 00:20 LOCAL",
+     "head": "MISSILES STRIKE BASES ON LUZON",
+     "vo": [
+      [
+       "@reporter",
+       "After midnight, missiles hit bases on Luzon, where Americans serve."
+      ]
+     ],
+     "sfx": [
+      "siren",
+      "boom",
+      "boom"
+     ],
+     "hit": true,
+     "loc": [
+      120.55,
+      15.19,
+      "LUZON"
+     ]
+    },
+    {
+     "src": "pd/v_himars_ph.webm",
+     "t": 29.3,
+     "fx": 0.3,
+     "clip": 1.0,
+     "tag": "NORTHERN LUZON",
+     "head": "U.S. ARMY ROCKETS RETURN FIRE",
+     "radio": "Fire mission. Rounds complete.",
+     "vo": [],
+     "min": 2.8,
+     "hit": true
+    },
+    {
+     "src": "pd/v_tlam.webm",
+     "t": 0.7,
+     "fx": 0.3,
+     "clip": 1.0,
+     "tag": "SOUTH CHINA SEA",
+     "head": "U.S. DESTROYERS FIRE TOMAHAWKS",
+     "vo": [
+      [
+       "@anchor",
+       "American warships return fire."
+      ]
+     ],
+     "min": 2.8
+    },
+    {
+     "src": "pd/v_hornet_lincoln2.webm",
+     "t": 0.5,
+     "fx": 0.3,
+     "clip": 0.7,
+     "tag": "USS ABRAHAM LINCOLN",
+     "head": "U.S. FORCES WORLDWIDE: DEFCON 2",
+     "defcon": 2,
+     "vo": [
+      [
+       "gv2",
+       "DEFCON two."
+      ]
+     ],
+     "sfx": [
+      "klaxon"
+     ],
+     "hit": true,
+     "min": 2.6
+    }
+   ]
+  }
+ ]
+}
