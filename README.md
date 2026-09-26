@@ -1,2 +1,3 @@
-# looking-glass
-Looking Glass: global strategy war game
+# Looking Glass
+
+Global strategy war game (Blue vs Red). Play: https://tradeshieldlabs.github.io/looking-glass/
