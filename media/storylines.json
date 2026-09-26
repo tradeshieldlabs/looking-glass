@@ -4,8 +4,8 @@
  "common_end": [
   {
    "img": "assets/intro_bombers.jpg",
-   "tag": "WHITEMAN AFB, MISSOURI",
-   "sub": "B-2 BOMBERS LAUNCH",
+   "tag": "OVER THE PACIFIC",
+   "sub": "B-2 BOMBERS FROM WHITEMAN AFB",
    "sfx": [
     "jet"
    ],
@@ -94,6 +94,11 @@
        "anchor",
        "A week later, a congressional delegation landed in Taipei, and Congress moved to release fourteen billion dollars in arms."
       ]
+     ],
+     "loc": [
+      121.56,
+      25.04,
+      "TAIPEI"
      ]
     },
     {
@@ -105,6 +110,11 @@
        "reporter",
        "Beijing answered within hours. Live-fire drills, code-named Strait Thunder."
       ]
+     ],
+     "loc": [
+      119.8,
+      24.4,
+      "TAIWAN STRAIT"
      ]
     },
     {
@@ -116,6 +126,11 @@
        "anchor",
        "Then a Chinese fighter clipped a U.S. Navy P-8 over the strait. Nine Americans are missing."
       ]
+     ],
+     "loc": [
+      120.3,
+      23.3,
+      "P-8 COLLISION"
      ]
     },
     {
@@ -130,6 +145,11 @@
      ],
      "sfx": [
       "jet"
+     ],
+     "loc": [
+      127.5,
+      21.5,
+      "CSGs"
      ]
     },
     {
@@ -145,10 +165,15 @@
      "sfx": [
       "siren",
       "boom"
+     ],
+     "loc": [
+      121.56,
+      25.04,
+      "TAIPEI"
      ]
     },
     {
-     "img": "assets/intro_missiles.jpg",
+     "img": "media/src/guam_def.png",
      "tag": "ANDERSEN AFB, GUAM",
      "sub": "BALLISTIC MISSILES INBOUND",
      "vo": [
@@ -159,6 +184,17 @@
      ],
      "sfx": [
       "boom"
+     ],
+     "loc": [
+      144.93,
+      13.58,
+      "ANDERSEN AFB"
+     ],
+     "box": [
+      112,
+      6,
+      150,
+      34
      ]
     },
     {
@@ -176,6 +212,12 @@
       "klaxon"
      ]
     }
+   ],
+   "map": [
+    113,
+    17,
+    131,
+    32
    ]
   },
   {
@@ -206,6 +248,11 @@
      ],
      "sfx": [
       "launch"
+     ],
+     "loc": [
+      127.44,
+      39.15,
+      "WONSAN"
      ]
     },
     {
@@ -217,6 +264,11 @@
        "reporter",
        "As allied forces drilled together, Pyongyang declared a wartime state along the DMZ."
       ]
+     ],
+     "loc": [
+      127.0,
+      38.1,
+      "DMZ"
      ]
     },
     {
@@ -232,6 +284,11 @@
      "sfx": [
       "boom",
       "boom"
+     ],
+     "loc": [
+      125.68,
+      37.66,
+      "YEONPYEONG"
      ]
     },
     {
@@ -247,6 +304,11 @@
      "sfx": [
       "siren",
       "boom"
+     ],
+     "loc": [
+      126.98,
+      37.57,
+      "SEOUL"
      ]
     },
     {
@@ -258,10 +320,21 @@
        "anchor",
        "In Beijing, the P-L-A went to its highest alert, and warships surged into the Taiwan Strait."
       ]
+     ],
+     "loc": [
+      119.8,
+      24.4,
+      "TAIWAN STRAIT"
+     ],
+     "box": [
+      108,
+      20,
+      136,
+      44
      ]
     },
     {
-     "img": "assets/intro_missiles.jpg",
+     "img": "media/src/kr_humphreys.png",
      "tag": "CAMP HUMPHREYS, KOREA",
      "sub": "BALLISTIC MISSILES INBOUND",
      "vo": [
@@ -272,6 +345,11 @@
      ],
      "sfx": [
       "boom"
+     ],
+     "loc": [
+      127.03,
+      36.96,
+      "CAMP HUMPHREYS"
      ]
     },
     {
@@ -286,6 +364,17 @@
      ],
      "sfx": [
       "jet"
+     ],
+     "loc": [
+      134.0,
+      39.5,
+      "CSGs"
+     ],
+     "box": [
+      122,
+      31,
+      142,
+      45
      ]
     },
     {
@@ -303,6 +392,12 @@
       "klaxon"
      ]
     }
+   ],
+   "map": [
+    123,
+    33,
+    133,
+    43
    ]
   },
   {
@@ -329,6 +424,11 @@
        "anchor",
        "At Second Thomas Shoal, Chinese warships turned back a Philippine resupply mission, and threatened compulsory measures."
       ]
+     ],
+     "loc": [
+      115.86,
+      9.73,
+      "SECOND THOMAS SHOAL"
      ]
     },
     {
@@ -340,10 +440,15 @@
        "reporter",
        "Manila tried again, with an American destroyer in escort."
       ]
+     ],
+     "loc": [
+      116.6,
+      10.6,
+      "ESCORT"
      ]
     },
     {
-     "img": "media/src/ph_cannon.png",
+     "img": "media/src/ph_ram.png",
      "tag": "AYUNGIN SHOAL · DAY 6",
      "sub": "SUPPLY BOAT RAMMED, 4 SAILORS KILLED",
      "vo": [
@@ -354,6 +459,11 @@
      ],
      "sfx": [
       "boom"
+     ],
+     "loc": [
+      115.86,
+      9.73,
+      "AYUNGIN SHOAL"
      ]
     },
     {
@@ -368,6 +478,17 @@
      ],
      "sfx": [
       "jet"
+     ],
+     "loc": [
+      127.5,
+      15.5,
+      "CSGs"
+     ],
+     "box": [
+      110,
+      4,
+      134,
+      22
      ]
     },
     {
@@ -384,10 +505,15 @@
       "siren",
       "boom",
       "boom"
+     ],
+     "loc": [
+      120.55,
+      15.19,
+      "LUZON"
      ]
     },
     {
-     "img": "assets/intro_missiles.jpg",
+     "img": "media/src/guam_def.png",
      "tag": "ANDERSEN AFB, GUAM",
      "sub": "BALLISTIC MISSILES INBOUND",
      "vo": [
@@ -398,6 +524,17 @@
      ],
      "sfx": [
       "boom"
+     ],
+     "loc": [
+      144.93,
+      13.58,
+      "ANDERSEN AFB"
+     ],
+     "box": [
+      112,
+      6,
+      150,
+      34
      ]
     },
     {
@@ -415,6 +552,12 @@
       "klaxon"
      ]
     }
+   ],
+   "map": [
+    112,
+    5,
+    126,
+    19
    ]
   }
  ]
