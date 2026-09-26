@@ -1,0 +1,908 @@
+{
+ "schema": 1,
+ "updated": "2026-09-27T07:00:00+09:00",
+ "as_of": "2026-09-27",
+ "sources": [
+  "TWZ 'Where Are The Aircraft Carriers?: September 23, 2026' (twz.com)",
+  "USNI News Fleet and Marine Tracker (data through Sept. 21, 2026) and Western Pacific Pulse (Sept. 25, 2026)",
+  "Naval Vessel Register / public hull lists; CSIS and IISS public reporting for PLA and Russian units",
+  "Reuters, Taipei Times, Focus Taiwan, Philippine News Agency, France 24/AFP, CNA/Taiwan MND (Sept 25–27, 2026) — see per-item src"
+ ],
+ "note": "Starting positions are general approximations from open sources. Real: assets, places and reported events. Fictional: all leaders, the social feed, and the war itself. Updated daily by the intel routine (DATA_SCHEMA.md).",
+ "start": {
+  "CSG@phs": "USS Abraham Lincoln (CVN-72)",
+  "CSG@cpa": "USS Theodore Roosevelt (CVN-71)",
+  "CSG@nep": "USS Ronald Reagan (CVN-76)",
+  "DDG@phs": "USS Frank E. Petersen Jr. (DDG-121)",
+  "DDG@nwp": [
+   "USS Rafael Peralta (DDG-115)",
+   "USS Higgins (DDG-76)"
+  ],
+  "DDG@mar": "USS Milius (DDG-69)",
+  "DDG@cpa": "USS Halsey (DDG-97)",
+  "DDG@ars": "USS Shoup (DDG-86)",
+  "DDG@wat": "USS Arleigh Burke (DDG-51)",
+  "DDG@gom": "USS Laboon (DDG-58)",
+  "SSN@phs": "USS Minnesota (SSN-783)",
+  "SSN@cpa": "USS Missouri (SSN-780)",
+  "SSN@nep": "USS Hyman G. Rickover (SSN-795)",
+  "SSN@wat": "USS Montana (SSN-794)",
+  "B21@guam": "Bomber Task Force, 2nd Bomb Wing (Andersen AFB, Guam)",
+  "B21@dga": "Bomber Task Force, 509th Bomb Wing (Diego Garcia)",
+  "B21@cus": "28th Bomb Wing, B-21 Raider (Ellsworth AFB)",
+  "THAAD@guam": "THAAD battery, Task Force Talon (Guam)",
+  "THAAD@kor": "THAAD battery, 35th ADA Brigade (Seongju)",
+  "THAAD@alk": "THAAD battery (Alaska deployment)",
+  "PATRIOT@oki": "1-1 ADA Patriot battalion (Kadena AB)",
+  "PATRIOT@kor": "6-52 ADA Patriot battalion (Suwon/Osan)",
+  "PATRIOT@guam": "Patriot battery, 94th AAMDC (Guam)",
+  "PATRIOT@haw": "Patriot battery, 94th AAMDC (Hawaii)",
+  "PATRIOT@gulf": "Patriot battalion (Al Udeid AB, Qatar)",
+  "PATRIOT@jpn": "JASDF 1st Air Defense Missile Group (Iruma)",
+  "PATRIOT@twn": "ROC Army Patriot battalion (Taipei)",
+  "PLANCV@ecs": "CNS Liaoning (16)",
+  "PLANCV@scs": "CNS Shandong (17)",
+  "YASEN@okh": "Novosibirsk (K-573)",
+  "YASEN@nrw": "Kazan (K-561)",
+  "GORSH@soj": "Varyag (011), Pacific Fleet flagship",
+  "GORSH@car": "Admiral Gorshkov (454)",
+  "GORSH@nrw": "Admiral Kasatonov (461)",
+  "SSK@soj": "Hero Kim Kun Ok (841)"
+ },
+ "readiness": {
+  "as_of": "2026-09-26",
+  "note": "Mission-capable = able to do at least one assigned mission. 'est.' = estimate from public reporting where no official figure exists.",
+  "types": {
+   "F35": {
+    "mc": 0.44,
+    "note": "F-35 fleet MC 44.1% FY2025 (F-35A 38.6%, F-35B 53.9%, F-35C Navy 54.2%)",
+    "src": "GAO F-35 sustainment report (FY2025 data, 2026)"
+   },
+   "F22": {
+    "mc": 0.4,
+    "note": "F-22A MC 40.19% FY2024",
+    "src": "Air & Space Forces Magazine, USAF MC rates FY2024 (Jan 2025)"
+   },
+   "B21": {
+    "mc": 0.5,
+    "note": "B-2A under 50% FY2024 (56% FY2023); B-21 entering service",
+    "src": "Air & Space Forces Magazine, USAF MC rates FY2024 (Jan 2025)"
+   },
+   "KC46": {
+    "mc": 0.61,
+    "note": "KC-46A MC 61.05% FY2024",
+    "src": "Air & Space Forces Magazine, USAF MC rates FY2024 (Jan 2025)"
+   },
+   "MQ9": {
+    "mc": 0.7,
+    "note": "MQ-9 fleet, est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "CSG": {
+    "mc": 0.75,
+    "note": "Forward carriers; about 1/3 of the carrier fleet is in maintenance at any time",
+    "src": "GAO/CRS Navy readiness reporting"
+   },
+   "DDG": {
+    "mc": 0.7,
+    "note": "Surface-ship maintenance delays; most maintenance periods finish late",
+    "src": "GAO surface ship maintenance reports"
+   },
+   "SSN": {
+    "mc": 0.63,
+    "note": "About 37% of attack submarines in or waiting for maintenance",
+    "src": "GAO/CBO submarine maintenance reporting"
+   },
+   "BCT": {
+    "mc": 0.8,
+    "note": "Army BCT readiness, est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "MLR": {
+    "mc": 0.85,
+    "note": "est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "HIMARS": {
+    "mc": 0.88,
+    "note": "est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "PATRIOT": {
+    "mc": 0.8,
+    "note": "High Patriot operational tempo (Middle East, Europe rotations)",
+    "src": "CRS/Army reporting"
+   },
+   "THAAD": {
+    "mc": 0.85,
+    "note": "est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "PLANCV": {
+    "mc": 0.67,
+    "note": "3 carriers; typically one in refit or sea trials",
+    "src": "IISS Military Balance / public imagery reporting"
+   },
+   "T055": {
+    "mc": 0.8,
+    "note": "New hulls; PLAN readiness estimates",
+    "src": "IISS / DoD China Military Power Report"
+   },
+   "SSK": {
+    "mc": 0.65,
+    "note": "est. from public reporting",
+    "src": "DoD China Military Power Report"
+   },
+   "J20": {
+    "mc": 0.72,
+    "note": "est. from public reporting",
+    "src": "DoD CMPR / IISS"
+   },
+   "H6": {
+    "mc": 0.65,
+    "note": "est. from public reporting",
+    "src": "DoD CMPR / IISS"
+   },
+   "PLA": {
+    "mc": 0.8,
+    "note": "est. from public reporting",
+    "src": "DoD CMPR"
+   },
+   "AMPH": {
+    "mc": 0.8,
+    "note": "est. from public reporting",
+    "src": "DoD CMPR"
+   },
+   "DF26": {
+    "mc": 0.85,
+    "note": "PLARF brigades held at high readiness",
+    "src": "DoD CMPR"
+   },
+   "DF17": {
+    "mc": 0.85,
+    "note": "PLARF",
+    "src": "DoD CMPR"
+   },
+   "SAM": {
+    "mc": 0.85,
+    "note": "est. from public reporting",
+    "src": "est. from public reporting"
+   },
+   "SU57": {
+    "mc": 0.6,
+    "note": "Small fleet, war losses/wear",
+    "src": "IISS Military Balance"
+   },
+   "TU160": {
+    "mc": 0.5,
+    "note": "Aging fleet, Ukraine-war strikes on bases",
+    "src": "IISS / public reporting"
+   },
+   "KINZHAL": {
+    "mc": 0.6,
+    "note": "est. from public reporting",
+    "src": "IISS"
+   },
+   "GORSH": {
+    "mc": 0.6,
+    "note": "Pacific Fleet availability",
+    "src": "IISS"
+   },
+   "YASEN": {
+    "mc": 0.6,
+    "note": "est. from public reporting",
+    "src": "IISS"
+   },
+   "MRB": {
+    "mc": 0.7,
+    "note": "Units depleted by the Ukraine war",
+    "src": "IISS"
+   },
+   "KPA": {
+    "mc": 0.7,
+    "note": "est. from public reporting",
+    "src": "ROK MND Defense White Paper"
+   },
+   "ICBM": {
+    "mc": 0.6,
+    "note": "Liquid/solid mix, limited launchers",
+    "src": "CSIS Missile Threat"
+   }
+  }
+ },
+ "whats_new": [
+  {
+   "date": "2026-09-27",
+   "text": "U.S.–China summit in Washington ends with no public breakthrough on Taiwan; the ~$14B U.S. arms package for Taiwan is still on hold.",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+    },
+    {
+     "pub": "Taipei Times",
+     "date": "2026-09-27",
+     "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
+    },
+    {
+     "pub": "Focus Taiwan",
+     "date": "2026-09-26",
+     "url": "https://focustaiwan.tw/politics/202609260008"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "text": "Washington rejects an Iranian offer to reopen the Strait of Hormuz; two U.S. carriers (George Washington, George H.W. Bush) stay on the CENTCOM blockade — they now start the game in the Arabian Sea, committed for 2 turns.",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+    },
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "text": "USS Abraham Lincoln is homebound to San Diego after a Guam stop (~307 days deployed); USS Ronald Reagan is back from maintenance and mission-ready — it never starts in maintenance.",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "text": "ADMM-Plus: 11 ships from 8 nations (incl. USS Canberra, JS Ise, HMAS Perth) drill in the West Philippine Sea; China skipped the sea phase.",
+   "src": [
+    {
+     "pub": "Philippine News Agency",
+     "date": "2026-09-25",
+     "url": "https://www.pna.gov.ph/articles/1284825"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "text": "Routine PLA pressure: 16 PLA aircraft and ships around Taiwan in 24 h (Sept 25–26); one aircraft crossed the median line.",
+   "src": [
+    {
+     "pub": "CNA / Taiwan MND",
+     "date": "2026-09-26",
+     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "text": "Russia–Ukraine long-range strike war escalates (refineries, Kyiv); new world events model the drain on Patriot interceptors.",
+   "src": [
+    {
+     "pub": "France 24 / AFP",
+     "date": "2026-09-26",
+     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+    },
+    {
+     "pub": "LB.ua (Ukraine General Staff)",
+     "date": "2026-09-26",
+     "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
+    }
+   ]
+  }
+ ],
+ "situation": {
+  "as_of": "2026-09-27",
+  "summary": "Tense but not at war: Washington and Beijing talked without a Taiwan deal, the U.S. keeps two carriers on the Iran blockade far from the Pacific, and the Western Pacific carrier is heading home.",
+  "flashpoints": [
+   {
+    "id": "taiwan",
+    "region": "Taiwan Strait",
+    "title": "Summit ends, arms package still held",
+    "text": "The U.S.–China summit ended without a public Taiwan breakthrough. Taipei says arming Taiwan is an important U.S. interest; the U.S. ambassador in Beijing says Taiwan policy is unchanged. The ~$14B U.S. arms sale remains under review amid U.S. stockpile and industrial-base limits. Beijing's party paper calls Taiwan its 'core of core interests'.",
+    "date": "2026-09-26",
+    "level": 3,
+    "src": [
+     {
+      "pub": "Reuters",
+      "date": "2026-09-26",
+      "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+     },
+     {
+      "pub": "Taipei Times",
+      "date": "2026-09-27",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
+     },
+     {
+      "pub": "Focus Taiwan",
+      "date": "2026-09-26",
+      "url": "https://focustaiwan.tw/politics/202609260008"
+     }
+    ]
+   },
+   {
+    "id": "tw-adiz",
+    "region": "Taiwan Strait",
+    "title": "16 PLA aircraft and ships around Taiwan",
+    "text": "Taiwan's defense ministry tracked 5 PLA aircraft, 6 navy ships and 5 official ships in 24 hours; one aircraft crossed the median line into the northern ADIZ. No named large exercise.",
+    "date": "2026-09-26",
+    "level": 2,
+    "src": [
+     {
+      "pub": "CNA / Taiwan MND",
+      "date": "2026-09-26",
+      "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "region": "Strait of Hormuz / Iran",
+    "title": "U.S. rejects Iran's Hormuz offer",
+    "text": "Iran offered to reopen the Strait of Hormuz and pause wider fighting in exchange for lifting the port blockade, frozen funds and oil sanctions. Washington said no. The conflict has run since late February; CENTCOM reports 110 commercial ships redirected by the blockade.",
+    "date": "2026-09-26",
+    "level": 4,
+    "src": [
+     {
+      "pub": "Reuters",
+      "date": "2026-09-26",
+      "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+     },
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "id": "wps",
+    "region": "South China Sea",
+    "title": "ADMM-Plus drills in the West Philippine Sea",
+    "text": "A Philippines-led sea phase on Sept 23 with 11 ships from the Philippines, U.S. (USS Canberra), Japan (JS Ise), Australia (HMAS Perth), India, New Zealand, Singapore and Brunei. China attended the opening but not the sea phase.",
+    "date": "2026-09-25",
+    "level": 2,
+    "src": [
+     {
+      "pub": "Philippine News Agency",
+      "date": "2026-09-25",
+      "url": "https://www.pna.gov.ph/articles/1284825"
+     }
+    ]
+   },
+   {
+    "id": "ukraine",
+    "region": "Ukraine / Russia",
+    "title": "Long-range strike war intensifies",
+    "text": "At least 16 killed in 24 hours of cross-strikes. Ukraine hit refineries in Krasnodar and Ilsky; Russian drones and missiles hit Kyiv. Ukraine reports 205 front-line clashes a day, heaviest near Kostiantynivka and Pokrovsk. Ukrainian air defense stops about 55% of Russia's jet drones.",
+    "date": "2026-09-26",
+    "level": 3,
+    "src": [
+     {
+      "pub": "France 24 / AFP",
+      "date": "2026-09-26",
+      "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+     },
+     {
+      "pub": "LB.ua (Ukraine General Staff)",
+      "date": "2026-09-26",
+      "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
+     }
+    ]
+   }
+  ],
+  "fleet": [
+   {
+    "name": "USS Abraham Lincoln (CVN-72)",
+    "where": "Philippine Sea → eastbound",
+    "status": "Homebound to San Diego after a Guam stop (Sept 19–20), ~307 days deployed. With USS Frank E. Petersen Jr.",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS George Washington (CVN-73)",
+    "where": "Arabian Sea (CENTCOM)",
+    "status": "Hormuz blockade operations; came under IRGC missile attack earlier in September (embarked media). With USS Shoup.",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS George H.W. Bush (CVN-77)",
+    "where": "Arabian Sea (CENTCOM)",
+    "status": "Blockade operations with George Washington.",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS Ronald Reagan (CVN-76)",
+    "where": "Pacific Northwest",
+    "status": "Back from maintenance (docking availability), mission-ready; not reported deployed.",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS Theodore Roosevelt (CVN-71)",
+    "where": "Off San Diego",
+    "status": "Training (prior reporting cycle).",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS Nimitz (CVN-68)",
+    "where": "Location not reported",
+    "status": "Training ahead of planned deactivation.",
+    "date": "2026-09-23",
+    "src": [
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "name": "USS Canberra (LCS-30)",
+    "where": "West Philippine Sea",
+    "status": "ADMM-Plus multinational sea phase (Sept 23).",
+    "date": "2026-09-25",
+    "src": [
+     {
+      "pub": "Philippine News Agency",
+      "date": "2026-09-25",
+      "url": "https://www.pna.gov.ph/articles/1284825"
+     }
+    ]
+   },
+   {
+    "name": "CNS Liaoning / CNS Shandong",
+    "where": "East China Sea / South China Sea (seed)",
+    "status": "No authoritative public reposition this window.",
+    "date": "2026-09-25",
+    "src": [
+     {
+      "pub": "USNI News",
+      "date": "2026-09-25",
+      "title": "Western Pacific Pulse, Sept. 25, 2026",
+      "url": "https://news.usni.org/2026/09/25/usni-news-western-pacific-pulse-sept-25-2026"
+     }
+    ]
+   }
+  ]
+ },
+ "ticker": [
+  {
+   "text": "U.S.–CHINA SUMMIT ENDS WITHOUT TAIWAN BREAKTHROUGH",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+    }
+   ]
+  },
+  {
+   "text": "$14B TAIWAN ARMS PACKAGE STILL ON HOLD",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Focus Taiwan",
+     "date": "2026-09-26",
+     "url": "https://focustaiwan.tw/politics/202609260008"
+    }
+   ]
+  },
+  {
+   "text": "U.S. REJECTS IRAN OFFER TO REOPEN HORMUZ · BLOCKADE CONTINUES",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+    }
+   ]
+  },
+  {
+   "text": "TWO U.S. CARRIERS HOLD THE ARABIAN SEA · LINCOLN HEADS HOME",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "text": "USS RONALD REAGAN BACK FROM MAINTENANCE, MISSION-READY",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "text": "EIGHT NAVIES DRILL IN WEST PHILIPPINE SEA · CHINA SITS OUT",
+   "date": "2026-09-25",
+   "src": [
+    {
+     "pub": "Philippine News Agency",
+     "date": "2026-09-25",
+     "url": "https://www.pna.gov.ph/articles/1284825"
+    }
+   ]
+  },
+  {
+   "text": "TAIWAN TRACKS 16 PLA AIRCRAFT AND SHIPS IN 24 HOURS",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "CNA / Taiwan MND",
+     "date": "2026-09-26",
+     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
+    }
+   ]
+  },
+  {
+   "text": "RUSSIA–UKRAINE STRIKE WAR: AT LEAST 16 KILLED IN 24 HOURS",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "France 24 / AFP",
+     "date": "2026-09-26",
+     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+    }
+   ]
+  }
+ ],
+ "briefs": [
+  {
+   "text": "Two U.S. carriers (George Washington, George H.W. Bush) are tied down on the Iran blockade in the Arabian Sea — 2 turns to break away.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    },
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+    }
+   ]
+  },
+  {
+   "text": "Abraham Lincoln was homebound after ~307 days at sea when the crisis broke; Ronald Reagan is fresh out of maintenance.",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "text": "The ~$14B Taiwan arms package was still on hold and the summit produced no Taiwan deal.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+    },
+    {
+     "pub": "Focus Taiwan",
+     "date": "2026-09-26",
+     "url": "https://focustaiwan.tw/politics/202609260008"
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "hormuz-shut",
+   "title": "Hormuz stays shut",
+   "text": "Washington rejects Iran's offer to reopen the Strait of Hormuz. Tankers keep queuing; war-risk premiums climb.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+    }
+   ],
+   "fx": {
+    "oil": 12
+   },
+   "w": 2
+  },
+  {
+   "id": "arms-hold",
+   "title": "Taiwan arms package still frozen",
+   "text": "The ~$14B sale stays under review — U.S. stockpiles and factories are stretched across three theaters.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Focus Taiwan",
+     "date": "2026-09-26",
+     "url": "https://focustaiwan.tw/politics/202609260008"
+    },
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+    }
+   ],
+   "fx": {
+    "will_red": 1.5,
+    "tension": 2
+   },
+   "w": 1.5
+  },
+  {
+   "id": "summit-null",
+   "title": "Summit ends, no Taiwan deal",
+   "text": "Beijing repeats that Taiwan is its 'core of core interests'. Washington says its policy is unchanged. Markets shrug; militaries don't.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "Taipei Times",
+     "date": "2026-09-27",
+     "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
+    }
+   ],
+   "fx": {
+    "tension": 3
+   },
+   "w": 1
+  },
+  {
+   "id": "admm-drill",
+   "title": "Eight navies drill in the West Philippine Sea",
+   "text": "ADMM-Plus warships from the Philippines, U.S., Japan, Australia, India, New Zealand, Singapore and Brunei sail together. China stays away.",
+   "date": "2026-09-25",
+   "src": [
+    {
+     "pub": "Philippine News Agency",
+     "date": "2026-09-25",
+     "url": "https://www.pna.gov.ph/articles/1284825"
+    }
+   ],
+   "fx": {
+    "will_blue": 1.5,
+    "tension": 1
+   },
+   "w": 1
+  },
+  {
+   "id": "pla-pressure",
+   "title": "PLA probes around Taiwan",
+   "text": "Aircraft, warships and coast guard hulls ring the island; one jet crosses the median line. Taiwan scrambles fighters and coastal missiles.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "CNA / Taiwan MND",
+     "date": "2026-09-26",
+     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
+    }
+   ],
+   "fx": {
+    "tension": 3
+   },
+   "w": 1
+  },
+  {
+   "id": "patriot-drain",
+   "title": "Interceptors spread thin",
+   "text": "Russia's drone-and-missile waves on Ukraine keep draining air-defense stocks. Every PAC-3 fired in Europe is one fewer for the Pacific.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "France 24 / AFP",
+     "date": "2026-09-26",
+     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+    }
+   ],
+   "fx": {
+    "pac3": -3,
+    "money_blue": -1
+   },
+   "w": 1.5
+  },
+  {
+   "id": "refinery-strikes",
+   "title": "Refinery strikes rattle oil markets",
+   "text": "Long-range drones hit Russian refineries while Kyiv is struck again. Fuel prices tick up worldwide.",
+   "date": "2026-09-26",
+   "src": [
+    {
+     "pub": "France 24 / AFP",
+     "date": "2026-09-26",
+     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+    },
+    {
+     "pub": "LB.ua (Ukraine General Staff)",
+     "date": "2026-09-26",
+     "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
+    }
+   ],
+   "fx": {
+    "oil": 6,
+    "food": 4
+   },
+   "w": 1
+  }
+ ],
+ "start_extra": [
+  {
+   "t": "CSG",
+   "side": "blue",
+   "loc": "ars",
+   "nat": "us",
+   "name": "USS George Washington (CVN-73)",
+   "hold": 2,
+   "why": "committed to the CENTCOM Hormuz blockade",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "t": "CSG",
+   "side": "blue",
+   "loc": "ars",
+   "nat": "us",
+   "name": "USS George H.W. Bush (CVN-77)",
+   "hold": 2,
+   "why": "committed to the CENTCOM Hormuz blockade",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  }
+ ],
+ "status": {
+  "USS Abraham Lincoln (CVN-72)": {
+   "text": "Homebound after a Guam stop, ~307 days deployed",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  "USS Ronald Reagan (CVN-76)": {
+   "text": "Back from maintenance, mission-ready",
+   "ready": true,
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  "USS Frank E. Petersen Jr. (DDG-121)": {
+   "text": "Escorting Lincoln (Guam stop)",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  "USS Shoup (DDG-86)": {
+   "text": "With the George Washington group, CENTCOM",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  "USS George Washington (CVN-73)": {
+   "text": "Hormuz blockade; IRGC missile attack earlier in Sept",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  "USS George H.W. Bush (CVN-77)": {
+   "text": "Hormuz blockade, Arabian Sea",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  }
+ },
+ "media": [],
+ "intros": {
+  "file": "media/intros.json",
+  "note": "Intro films are listed in media/intros.json (can be edited without a rebuild)."
+ }
+}
