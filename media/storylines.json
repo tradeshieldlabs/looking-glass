@@ -1,0 +1,421 @@
+{
+ "as_of": "2026-09-26",
+ "note": "Current-events escalation chains for the intro videos. Real events up to the as-of date are cited in 'basis'; everything after is fiction. Leaders are unnamed. Render with: .venv/bin/python tools/render_intro.py <id>",
+ "common_end": [
+  {
+   "img": "assets/intro_bombers.jpg",
+   "tag": "WHITEMAN AFB, MISSOURI",
+   "sub": "B-2 BOMBERS LAUNCH",
+   "sfx": [
+    "jet"
+   ],
+   "vo": [
+    [
+     "anchor",
+     "Tonight, the President goes before Congress."
+    ]
+   ]
+  },
+  {
+   "img": "assets/intro_joint.webp",
+   "tag": "HOUSE CHAMBER · JOINT SESSION",
+   "sub": "THE PRESIDENT ADDRESSES CONGRESS",
+   "vo": [
+    [
+     "clerk",
+     "Mister Speaker. The President of the United States."
+    ],
+    [
+     "pres",
+     "{PRES_LINE}"
+    ],
+    [
+     "pres",
+     "I ask the Congress to declare that a state of war exists."
+    ]
+   ],
+   "sfx": [
+    "applause"
+   ]
+  },
+  {
+   "img": "assets/intro_sign.webp",
+   "tag": "THE WHITE HOUSE",
+   "sub": "DECLARATION OF WAR SIGNED",
+   "banner": "A STATE OF WAR EXISTS",
+   "banner_sub": "HOUSE 398–33 · SENATE 91–8",
+   "min": 4.0,
+   "sfx": [
+    "gavel"
+   ]
+  },
+  {
+   "title": true,
+   "min": 6.0,
+   "sfx": [
+    "hit"
+   ]
+  }
+ ],
+ "storylines": [
+  {
+   "id": "taiwan",
+   "title": "The Taipei Visit",
+   "basis": [
+    "China's president made a state visit to Washington, Sept. 22–24, 2026, pressing the U.S. to 'oppose' Taiwan independence (ISW, BBC, Guardian)",
+    "A $14 billion Taiwan arms package has been delayed (ISW, National Post)"
+   ],
+   "ticker": [
+    "State visit ends with trade truce extended to Jan. 10",
+    "$14B Taiwan arms package still on hold",
+    "Beijing: arms sales to Taiwan are a 'red line'",
+    "Taiwan raises combat readiness",
+    "Carrier Abraham Lincoln leaves Guam"
+   ],
+   "pres_line": "At dawn, the People's Republic of China attacked Taiwan, and American forces in the Pacific.",
+   "shots": [
+    {
+     "img": "media/src/tw_arrival.png",
+     "tag": "WASHINGTON · SEPT 24",
+     "sub": "CHINA'S PRESIDENT ON STATE VISIT",
+     "vo": [
+      [
+       "anchor",
+       "It began with a red carpet. In Washington, China's president pressed the White House to oppose Taiwan independence."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/tw_codel.png",
+     "tag": "TAIPEI · ONE WEEK LATER",
+     "sub": "U.S. CONGRESSIONAL DELEGATION LANDS",
+     "vo": [
+      [
+       "anchor",
+       "A week later, a congressional delegation landed in Taipei, and Congress moved to release fourteen billion dollars in arms."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/tw_drills.png",
+     "tag": "TAIWAN STRAIT · DAY 9",
+     "sub": "PLA LAUNCHES 'STRAIT THUNDER' DRILLS",
+     "vo": [
+      [
+       "reporter",
+       "Beijing answered within hours. Live-fire drills, code-named Strait Thunder."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/tw_p8.png",
+     "tag": "OVER THE STRAIT · DAY 11",
+     "sub": "CHINESE FIGHTER STRIKES U.S. NAVY P-8",
+     "vo": [
+      [
+       "anchor",
+       "Then a Chinese fighter clipped a U.S. Navy P-8 over the strait. Nine Americans are missing."
+      ]
+     ]
+    },
+    {
+     "img": "assets/intro_carrier.jpg",
+     "tag": "PHILIPPINE SEA",
+     "sub": "CARRIERS ORDERED TO TAIWAN",
+     "vo": [
+      [
+       "anchor",
+       "Two carrier strike groups turned toward Taiwan."
+      ]
+     ],
+     "sfx": [
+      "jet"
+     ]
+    },
+    {
+     "img": "media/src/tw_taipei.png",
+     "tag": "TAIPEI · 05:40 LOCAL",
+     "sub": "THE DRILLS GO LIVE",
+     "vo": [
+      [
+       "reporter",
+       "At dawn, the drills went live."
+      ]
+     ],
+     "sfx": [
+      "siren",
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_missiles.jpg",
+     "tag": "ANDERSEN AFB, GUAM",
+     "sub": "BALLISTIC MISSILES INBOUND",
+     "vo": [
+      [
+       "gv",
+       "Real world, real world. Incoming missile. Seek shelter immediately."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_command.jpg",
+     "tag": "DEPARTMENT OF WAR",
+     "sub": "U.S. FORCES WORLDWIDE",
+     "defcon": 2,
+     "vo": [
+      [
+       "gv",
+       "Defense readiness condition two is now in effect."
+      ]
+     ],
+     "sfx": [
+      "klaxon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "korea",
+   "title": "The Wonsan Test",
+   "basis": [
+    "North Korea test-fired two missiles from the Wonsan area on Sept. 20, 2026, later called a new Hwasong-11Ma hypersonic system (AP, Janes, TWZ)",
+    "Pyongyang condemned U.S.–South Korea–Japan drills (CNN, PBS)"
+   ],
+   "ticker": [
+    "Pyongyang: new hypersonic weapon an 'incurable headache'",
+    "Seoul: missiles flew 450 and 600 km from Wonsan",
+    "Japan: both landed outside its EEZ",
+    "Allies wrap trilateral drill",
+    "Kim Yo Jong dismisses U.S. overture"
+   ],
+   "pres_line": "At dawn, North Korea attacked our ally, and China joined the assault on American forces.",
+   "shots": [
+    {
+     "img": "media/src/kr_launch.png",
+     "tag": "WONSAN · SEPT 20",
+     "sub": "NORTH KOREA TESTS HYPERSONIC MISSILE",
+     "vo": [
+      [
+       "anchor",
+       "From Wonsan, North Korea tested a new hypersonic missile, and promised Washington an incurable headache."
+      ]
+     ],
+     "sfx": [
+      "launch"
+     ]
+    },
+    {
+     "img": "media/src/kr_dmz.png",
+     "tag": "DMZ · DAY 6",
+     "sub": "PYONGYANG DECLARES 'WARTIME STATE'",
+     "vo": [
+      [
+       "reporter",
+       "As allied forces drilled together, Pyongyang declared a wartime state along the DMZ."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/kr_island.png",
+     "tag": "YEONPYEONG ISLAND · DAY 8",
+     "sub": "NORTH KOREAN ARTILLERY STRIKES",
+     "vo": [
+      [
+       "anchor",
+       "Then the guns opened up on Yeonpyeong Island."
+      ]
+     ],
+     "sfx": [
+      "boom",
+      "boom"
+     ]
+    },
+    {
+     "img": "media/src/kr_seoul.png",
+     "tag": "SEOUL · 23:10 KST",
+     "sub": "MISSILES OVER SEOUL",
+     "vo": [
+      [
+       "reporter",
+       "Tonight, missiles over Seoul. Patriot batteries are firing."
+      ]
+     ],
+     "sfx": [
+      "siren",
+      "boom"
+     ]
+    },
+    {
+     "img": "media/src/tw_drills.png",
+     "tag": "TAIWAN STRAIT",
+     "sub": "CHINA MOBILIZES",
+     "vo": [
+      [
+       "anchor",
+       "In Beijing, the P-L-A went to its highest alert, and warships surged into the Taiwan Strait."
+      ]
+     ]
+    },
+    {
+     "img": "assets/intro_missiles.jpg",
+     "tag": "CAMP HUMPHREYS, KOREA",
+     "sub": "BALLISTIC MISSILES INBOUND",
+     "vo": [
+      [
+       "gv",
+       "Real world, real world. Incoming missile, Camp Humphreys. Seek shelter immediately."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_carrier.jpg",
+     "tag": "SEA OF JAPAN",
+     "sub": "CARRIERS MOVE NORTH",
+     "vo": [
+      [
+       "anchor",
+       "Two American carriers are racing north."
+      ]
+     ],
+     "sfx": [
+      "jet"
+     ]
+    },
+    {
+     "img": "assets/intro_command.jpg",
+     "tag": "DEPARTMENT OF WAR",
+     "sub": "U.S. FORCES WORLDWIDE",
+     "defcon": 2,
+     "vo": [
+      [
+       "gv",
+       "Defense readiness condition two is now in effect."
+      ]
+     ],
+     "sfx": [
+      "klaxon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shoal",
+   "title": "Second Thomas Shoal",
+   "basis": [
+    "On Sept. 24, 2026, PLA Navy and China Coast Guard ships blocked a Philippine resupply mission to BRP Sierra Madre at Second Thomas Shoal, warning of 'compulsory measures' (USNI News, Rappler, Philstar)"
+   ],
+   "ticker": [
+    "Manila: China 'hindered' Ayungin resupply",
+    "PLA Navy warned of 'compulsory measures'",
+    "15 Chinese vessels shadowed supply boat",
+    "Philippines weighs escorted mission",
+    "U.S. reaffirms Mutual Defense Treaty"
+   ],
+   "pres_line": "At dawn, the People's Republic of China attacked our ally, the Philippines, and American forces.",
+   "shots": [
+    {
+     "img": "media/src/ph_cannon.png",
+     "tag": "SECOND THOMAS SHOAL · SEPT 24",
+     "sub": "CHINA BLOCKS PHILIPPINE RESUPPLY",
+     "vo": [
+      [
+       "anchor",
+       "At Second Thomas Shoal, Chinese warships turned back a Philippine resupply mission, and threatened compulsory measures."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/ph_escort.png",
+     "tag": "SOUTH CHINA SEA · DAY 5",
+     "sub": "U.S. DESTROYER ESCORTS MANILA'S SHIPS",
+     "vo": [
+      [
+       "reporter",
+       "Manila tried again, with an American destroyer in escort."
+      ]
+     ]
+    },
+    {
+     "img": "media/src/ph_cannon.png",
+     "tag": "AYUNGIN SHOAL · DAY 6",
+     "sub": "SUPPLY BOAT RAMMED, 4 SAILORS KILLED",
+     "vo": [
+      [
+       "anchor",
+       "A Chinese cutter rammed the supply boat. Four Filipino sailors were killed. Manila invoked the Mutual Defense Treaty."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_carrier.jpg",
+     "tag": "PHILIPPINE SEA",
+     "sub": "CARRIERS ORDERED SOUTH",
+     "vo": [
+      [
+       "anchor",
+       "Carriers were ordered into the South China Sea."
+      ]
+     ],
+     "sfx": [
+      "jet"
+     ]
+    },
+    {
+     "img": "media/src/ph_base.png",
+     "tag": "LUZON · 00:20 LOCAL",
+     "sub": "MISSILES STRIKE PHILIPPINE BASES",
+     "vo": [
+      [
+       "reporter",
+       "Just after midnight, missiles struck bases on Luzon, where Americans are stationed."
+      ]
+     ],
+     "sfx": [
+      "siren",
+      "boom",
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_missiles.jpg",
+     "tag": "ANDERSEN AFB, GUAM",
+     "sub": "BALLISTIC MISSILES INBOUND",
+     "vo": [
+      [
+       "gv",
+       "Real world, real world. Incoming missile. Seek shelter immediately."
+      ]
+     ],
+     "sfx": [
+      "boom"
+     ]
+    },
+    {
+     "img": "assets/intro_command.jpg",
+     "tag": "DEPARTMENT OF WAR",
+     "sub": "U.S. FORCES WORLDWIDE",
+     "defcon": 2,
+     "vo": [
+      [
+       "gv",
+       "Defense readiness condition two is now in effect."
+      ]
+     ],
+     "sfx": [
+      "klaxon"
+     ]
+    }
+   ]
+  }
+ ]
+}
