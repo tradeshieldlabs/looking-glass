@@ -1,12 +1,16 @@
 {
  "schema": 1,
- "updated": "2026-09-27T07:00:00+09:00",
- "as_of": "2026-09-27",
+ "updated": "2026-09-28T06:00:00+09:00",
+ "as_of": "2026-09-28",
  "sources": [
   "TWZ 'Where Are The Aircraft Carriers?: September 23, 2026' (twz.com)",
-  "USNI News Fleet and Marine Tracker (data through Sept. 21, 2026) and Western Pacific Pulse (Sept. 25, 2026)",
-  "Naval Vessel Register / public hull lists; CSIS and IISS public reporting for PLA and Russian units",
-  "Reuters, Taipei Times, Focus Taiwan, Philippine News Agency, France 24/AFP, CNA/Taiwan MND (Sept 25–27, 2026) — see per-item src"
+  "USNI News / Reuters / Philippine Coast Guard reporting on Second Thomas Shoal (Sept 25, 2026)",
+  "Xinhua / PLA Southern Theater Command — Scarborough (Huangyan Dao) joint naval-air exercise (Sept 27, 2026)",
+  "Taiwan MND PLA activity bulletin (Sept 26–27, 2026); CNA",
+  "DW / Reuters / Al Jazeera — Hormuz stalemate after U.S. rejection (Sept 26–27, 2026)",
+  "CNA / Reuters — Russia–Ukraine strike wave (Sept 27, 2026)",
+  "USNI News / Janes / Korea Herald — DPRK hypersonic and MLRS tests (Sept 20–24, 2026)",
+  "Japan Today — Keen Sword / Type-25 counterstrike missile drill planning (Sept 27, 2026)"
  ],
  "note": "Starting positions are general approximations from open sources. Real: assets, places and reported events. Fictional: all leaders, the social feed, and the war itself. Updated daily by the intel routine (DATA_SCHEMA.md).",
  "start": {
@@ -51,7 +55,7 @@
  },
  "readiness": {
   "as_of": "2026-09-26",
-  "note": "Mission-capable = able to do at least one assigned mission. 'est.' = estimate from public reporting where no official figure exists.",
+  "note": "Mission-capable = able to do at least one assigned mission. 'est.' = estimate from public reporting where no official figure exists. No new official MC-rate release in this 24–48h window.",
   "types": {
    "F35": {
     "mc": 0.44,
@@ -212,6 +216,77 @@
  },
  "whats_new": [
   {
+   "date": "2026-09-28",
+   "text": "South China Sea heats up: China Coast Guard and PLAN blocked a Philippine resupply run to Second Thomas Shoal (Sept 24–25), then the PLA Southern Theater ran a joint naval-air drill around Scarborough Shoal (Sept 27).",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-25",
+     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+    },
+    {
+     "pub": "Xinhua",
+     "date": "2026-09-27",
+     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "text": "Hormuz stalemate hardens: after Washington rejected Tehran's seven-day reopen plan, Iran said it will not drop its conditions; two U.S. carriers stay on the Arabian Sea blockade.",
+   "src": [
+    {
+     "pub": "DW",
+     "date": "2026-09-27",
+     "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
+    },
+    {
+     "pub": "The War Zone",
+     "date": "2026-09-23",
+     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "text": "Russia–Ukraine drone/missile wave: at least eight killed on Sept 27; Kyiv says Russia launched more than 2,200 attack drones in one week — interceptor stocks stay under pressure.",
+   "src": [
+    {
+     "pub": "CNA / Reuters",
+     "date": "2026-09-27",
+     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "text": "Taiwan ADIZ quieter Sept 26–27 (2 PLA aircraft, 5 PLAN ships, 6 official ships). ~$14B U.S. arms package for Taiwan still under review after the Washington summit.",
+   "src": [
+    {
+     "pub": "Taiwan MND",
+     "date": "2026-09-27",
+     "url": "https://www.mnd.gov.tw/en/Publication/87841"
+    },
+    {
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "text": "Japan plans to put Type-25 long-range surface-to-ship missiles into the October Keen Sword U.S.–Japan drill (no live firing planned).",
+   "src": [
+    {
+     "pub": "Japan Today",
+     "date": "2026-09-27",
+     "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
+    }
+   ]
+  },
+  {
    "date": "2026-09-27",
    "text": "U.S.–China summit in Washington ends with no public breakthrough on Taiwan; the ~$14B U.S. arms package for Taiwan is still on hold.",
    "src": [
@@ -248,67 +323,83 @@
      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
     }
    ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "USS Abraham Lincoln is homebound to San Diego after a Guam stop (~307 days deployed); USS Ronald Reagan is back from maintenance and mission-ready — it never starts in maintenance.",
-   "src": [
-    {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "ADMM-Plus: 11 ships from 8 nations (incl. USS Canberra, JS Ise, HMAS Perth) drill in the West Philippine Sea; China skipped the sea phase.",
-   "src": [
-    {
-     "pub": "Philippine News Agency",
-     "date": "2026-09-25",
-     "url": "https://www.pna.gov.ph/articles/1284825"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "Routine PLA pressure: 16 PLA aircraft and ships around Taiwan in 24 h (Sept 25–26); one aircraft crossed the median line.",
-   "src": [
-    {
-     "pub": "CNA / Taiwan MND",
-     "date": "2026-09-26",
-     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "Russia–Ukraine long-range strike war escalates (refineries, Kyiv); new world events model the drain on Patriot interceptors.",
-   "src": [
-    {
-     "pub": "France 24 / AFP",
-     "date": "2026-09-26",
-     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
-    },
-    {
-     "pub": "LB.ua (Ukraine General Staff)",
-     "date": "2026-09-26",
-     "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
-    }
-   ]
   }
  ],
  "situation": {
-  "as_of": "2026-09-27",
-  "summary": "Tense but not at war: Washington and Beijing talked without a Taiwan deal, the U.S. keeps two carriers on the Iran blockade far from the Pacific, and the Western Pacific carrier is heading home.",
+  "as_of": "2026-09-28",
+  "summary": "Tense and tightening: the South China Sea saw a blocked Philippine resupply and a PLA Scarborough drill, Hormuz stays shut after Iran held its terms, and two U.S. carriers remain stuck on the Iran blockade while the Western Pacific carrier heads home.",
   "flashpoints": [
+   {
+    "id": "hormuz",
+    "region": "Strait of Hormuz / Iran",
+    "title": "Hormuz stalemate: Iran holds its terms",
+    "text": "Washington rejected Tehran's seven-day plan to reopen the Strait of Hormuz. Iran says it will not drop conditions (end hostilities, lift the port blockade, oil sanctions and frozen funds). The waterway remains largely closed to normal shipping; two U.S. carriers stay on the CENTCOM blockade.",
+    "date": "2026-09-27",
+    "level": 4,
+    "src": [
+     {
+      "pub": "DW",
+      "date": "2026-09-27",
+      "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
+     },
+     {
+      "pub": "Al Jazeera",
+      "date": "2026-09-27",
+      "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer"
+     },
+     {
+      "pub": "The War Zone",
+      "date": "2026-09-23",
+      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     }
+    ]
+   },
+   {
+    "id": "scs-ayungin",
+    "region": "South China Sea",
+    "title": "China blocks Second Thomas Shoal resupply",
+    "text": "Philippine Coast Guard says China Coast Guard and PLAN vessels obstructed a Sept 24 resupply to troops on the grounded BRP Sierra Madre at Second Thomas Shoal (Ayungin). No collision or injuries reported; Manila called the maneuvers a serious collision risk. First such public block since the 2024 provisional understanding.",
+    "date": "2026-09-25",
+    "level": 3,
+    "src": [
+     {
+      "pub": "Reuters",
+      "date": "2026-09-25",
+      "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+     },
+     {
+      "pub": "USNI News",
+      "date": "2026-09-25",
+      "url": "https://news.usni.org/2026/09/25/chinese-cutters-warships-block-philippine-resupply-mission-to-second-thomas-shoal"
+     }
+    ]
+   },
+   {
+    "id": "scarborough",
+    "region": "South China Sea",
+    "title": "PLA naval-air drill at Scarborough Shoal",
+    "text": "PLA Southern Theater Command ran a joint naval and air training exercise in the waters and airspace around Scarborough Shoal (Huangyan Dao) on Sept 27. Beijing called it a response to acts that 'undermined regional peace'; the drill comes days after the Second Thomas Shoal resupply block.",
+    "date": "2026-09-27",
+    "level": 3,
+    "src": [
+     {
+      "pub": "Xinhua",
+      "date": "2026-09-27",
+      "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+     },
+     {
+      "pub": "GMA News",
+      "date": "2026-09-27",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1003852/china-conducts-naval-air-exercise-around-scarborough-shoal/story/"
+     }
+    ]
+   },
    {
     "id": "taiwan",
     "region": "Taiwan Strait",
-    "title": "Summit ends, arms package still held",
-    "text": "The U.S.–China summit ended without a public Taiwan breakthrough. Taipei says arming Taiwan is an important U.S. interest; the U.S. ambassador in Beijing says Taiwan policy is unchanged. The ~$14B U.S. arms sale remains under review amid U.S. stockpile and industrial-base limits. Beijing's party paper calls Taiwan its 'core of core interests'.",
+    "title": "Summit over; $14B arms package still held",
+    "text": "The U.S.–China summit produced no public Taiwan breakthrough. Taipei says arming Taiwan remains an important U.S. interest; the ~$14B U.S. arms sale is still under review. Analysts note further U.S.–China meetings later in 2026 could keep the package delayed.",
     "date": "2026-09-26",
     "level": 3,
     "src": [
@@ -316,11 +407,6 @@
       "pub": "Reuters",
       "date": "2026-09-26",
       "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
-     },
-     {
-      "pub": "Taipei Times",
-      "date": "2026-09-27",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
      },
      {
       "pub": "Focus Taiwan",
@@ -332,71 +418,65 @@
    {
     "id": "tw-adiz",
     "region": "Taiwan Strait",
-    "title": "16 PLA aircraft and ships around Taiwan",
-    "text": "Taiwan's defense ministry tracked 5 PLA aircraft, 6 navy ships and 5 official ships in 24 hours; one aircraft crossed the median line into the northern ADIZ. No named large exercise.",
-    "date": "2026-09-26",
+    "title": "Quieter PLA day around Taiwan",
+    "text": "Taiwan MND (6 a.m. Sept 26 to 6 a.m. Sept 27): 2 PLA aircraft sorties, 5 PLAN ships and 6 official ships around Taiwan. No median-line crossings reported that day. ROC forces responded with CAP aircraft, navy ships and coastal missiles. Routine gray-zone pressure, not a named large exercise.",
+    "date": "2026-09-27",
     "level": 2,
     "src": [
      {
-      "pub": "CNA / Taiwan MND",
-      "date": "2026-09-26",
-      "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
-     }
-    ]
-   },
-   {
-    "id": "hormuz",
-    "region": "Strait of Hormuz / Iran",
-    "title": "U.S. rejects Iran's Hormuz offer",
-    "text": "Iran offered to reopen the Strait of Hormuz and pause wider fighting in exchange for lifting the port blockade, frozen funds and oil sanctions. Washington said no. The conflict has run since late February; CENTCOM reports 110 commercial ships redirected by the blockade.",
-    "date": "2026-09-26",
-    "level": 4,
-    "src": [
-     {
-      "pub": "Reuters",
-      "date": "2026-09-26",
-      "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
-     },
-     {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-     }
-    ]
-   },
-   {
-    "id": "wps",
-    "region": "South China Sea",
-    "title": "ADMM-Plus drills in the West Philippine Sea",
-    "text": "A Philippines-led sea phase on Sept 23 with 11 ships from the Philippines, U.S. (USS Canberra), Japan (JS Ise), Australia (HMAS Perth), India, New Zealand, Singapore and Brunei. China attended the opening but not the sea phase.",
-    "date": "2026-09-25",
-    "level": 2,
-    "src": [
-     {
-      "pub": "Philippine News Agency",
-      "date": "2026-09-25",
-      "url": "https://www.pna.gov.ph/articles/1284825"
+      "pub": "Taiwan MND",
+      "date": "2026-09-27",
+      "url": "https://www.mnd.gov.tw/en/Publication/87841"
      }
     ]
    },
    {
     "id": "ukraine",
     "region": "Ukraine / Russia",
-    "title": "Long-range strike war intensifies",
-    "text": "At least 16 killed in 24 hours of cross-strikes. Ukraine hit refineries in Krasnodar and Ilsky; Russian drones and missiles hit Kyiv. Ukraine reports 205 front-line clashes a day, heaviest near Kostiantynivka and Pokrovsk. Ukrainian air defense stops about 55% of Russia's jet drones.",
-    "date": "2026-09-26",
+    "title": "Drone-missile wave: 8 killed Sept 27",
+    "text": "Russian strikes killed at least eight people across Ukraine on Sept 27 (Sumy, Zaporizhzhia, Kyiv, Odesa). Kyiv says Russia launched more than 2,200 attack drones, about 1,650 aerial bombs and 38 missiles in one week. Moscow claimed hits on telecom data centers. Interceptor demand stays high.",
+    "date": "2026-09-27",
     "level": 3,
     "src": [
      {
-      "pub": "France 24 / AFP",
-      "date": "2026-09-26",
-      "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+      "pub": "CNA / Reuters",
+      "date": "2026-09-27",
+      "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+     }
+    ]
+   },
+   {
+    "id": "dprk",
+    "region": "Korean Peninsula",
+    "title": "North Korea hypersonic and rocket tests",
+    "text": "North Korea tested a new hypersonic-glide Hwasongpho-11Ma-1 variant on Sept 20 (two missiles from the Wonsan area; ranges reported ~440–600 km). On Sept 22 it tested upgraded 240 mm guided rockets claiming 100–115 km reach. Allied Freedom Edge drills (U.S.–ROK–Japan) had wrapped Sept 11.",
+    "date": "2026-09-24",
+    "level": 2,
+    "src": [
+     {
+      "pub": "USNI News",
+      "date": "2026-09-23",
+      "url": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile"
      },
      {
-      "pub": "LB.ua (Ukraine General Staff)",
-      "date": "2026-09-26",
-      "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
+      "pub": "The Korea Herald",
+      "date": "2026-09-24",
+      "url": "https://www.koreaherald.com/article/10884243"
+     }
+    ]
+   },
+   {
+    "id": "keen-sword",
+    "region": "Japan / Western Pacific",
+    "title": "Japan long-range missiles in Keen Sword",
+    "text": "Japan plans to involve Ground Self-Defense Force Type-25 long-range surface-to-ship missiles in the October Keen Sword U.S.–Japan field exercise (information-sharing and launch procedures; no live firing planned). Part of Japan's counterstrike capability push.",
+    "date": "2026-09-27",
+    "level": 2,
+    "src": [
+     {
+      "pub": "Japan Today",
+      "date": "2026-09-27",
+      "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
      }
     ]
    }
@@ -405,7 +485,7 @@
    {
     "name": "USS Abraham Lincoln (CVN-72)",
     "where": "Philippine Sea → eastbound",
-    "status": "Homebound to San Diego after a Guam stop (Sept 19–20), ~307 days deployed. With USS Frank E. Petersen Jr.",
+    "status": "Homebound to San Diego after a Guam stop (Sept 19–20), ~307 days deployed. With USS Frank E. Petersen Jr. Latest open carrier tracker: Sept 23.",
     "date": "2026-09-23",
     "src": [
      {
@@ -433,7 +513,7 @@
    {
     "name": "USS George H.W. Bush (CVN-77)",
     "where": "Arabian Sea (CENTCOM)",
-    "status": "Blockade operations with George Washington.",
+    "status": "Blockade operations with George Washington. No newer public reposition this window.",
     "date": "2026-09-23",
     "src": [
      {
@@ -461,7 +541,7 @@
    {
     "name": "USS Theodore Roosevelt (CVN-71)",
     "where": "Off San Diego",
-    "status": "Training (prior reporting cycle).",
+    "status": "Training / near-term deploy prep (prior reporting cycle).",
     "date": "2026-09-23",
     "src": [
      {
@@ -488,8 +568,8 @@
    },
    {
     "name": "USS Canberra (LCS-30)",
-    "where": "West Philippine Sea",
-    "status": "ADMM-Plus multinational sea phase (Sept 23).",
+    "where": "West Philippine Sea (prior)",
+    "status": "Participated in ADMM-Plus multinational sea phase (Sept 23). No new public position after the Second Thomas / Scarborough events.",
     "date": "2026-09-25",
     "src": [
      {
@@ -502,14 +582,13 @@
    {
     "name": "CNS Liaoning / CNS Shandong",
     "where": "East China Sea / South China Sea (seed)",
-    "status": "No authoritative public reposition this window.",
-    "date": "2026-09-25",
+    "status": "No authoritative public reposition this window. PLA Southern Theater ran a Scarborough naval-air drill Sept 27 (not confirmed as carrier ops).",
+    "date": "2026-09-27",
     "src": [
      {
-      "pub": "USNI News",
-      "date": "2026-09-25",
-      "title": "Western Pacific Pulse, Sept. 25, 2026",
-      "url": "https://news.usni.org/2026/09/25/usni-news-western-pacific-pulse-sept-25-2026"
+      "pub": "Xinhua",
+      "date": "2026-09-27",
+      "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
      }
     ]
    }
@@ -517,35 +596,68 @@
  },
  "ticker": [
   {
-   "text": "U.S.–CHINA SUMMIT ENDS WITHOUT TAIWAN BREAKTHROUGH",
+   "text": "PLA JOINT NAVAL-AIR DRILL AROUND SCARBOROUGH SHOAL",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Xinhua",
+     "date": "2026-09-27",
+     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+    }
+   ]
+  },
+  {
+   "text": "CHINA BLOCKS PHILIPPINE RESUPPLY TO SECOND THOMAS SHOAL",
+   "date": "2026-09-25",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-25",
+     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+    }
+   ]
+  },
+  {
+   "text": "IRAN STICKS TO HORMUZ PLAN AFTER U.S. REJECTION",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "DW",
+     "date": "2026-09-27",
+     "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
+    }
+   ]
+  },
+  {
+   "text": "RUSSIAN STRIKES KILL 8 ACROSS UKRAINE · 2,200+ DRONES IN A WEEK",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "CNA / Reuters",
+     "date": "2026-09-27",
+     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+    }
+   ]
+  },
+  {
+   "text": "TAIWAN TRACKS QUIETER PLA DAY: 2 AIRCRAFT, 5 NAVY SHIPS",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Taiwan MND",
+     "date": "2026-09-27",
+     "url": "https://www.mnd.gov.tw/en/Publication/87841"
+    }
+   ]
+  },
+  {
+   "text": "$14B TAIWAN ARMS PACKAGE STILL ON HOLD AFTER SUMMIT",
    "date": "2026-09-26",
    "src": [
     {
      "pub": "Reuters",
      "date": "2026-09-26",
      "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
-    }
-   ]
-  },
-  {
-   "text": "$14B TAIWAN ARMS PACKAGE STILL ON HOLD",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "Focus Taiwan",
-     "date": "2026-09-26",
-     "url": "https://focustaiwan.tw/politics/202609260008"
-    }
-   ]
-  },
-  {
-   "text": "U.S. REJECTS IRAN OFFER TO REOPEN HORMUZ · BLOCKADE CONTINUES",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
     }
    ]
   },
@@ -562,71 +674,53 @@
    ]
   },
   {
-   "text": "USS RONALD REAGAN BACK FROM MAINTENANCE, MISSION-READY",
-   "date": "2026-09-23",
+   "text": "JAPAN PLANS LONG-RANGE MISSILES IN OCTOBER U.S. DRILL",
+   "date": "2026-09-27",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    }
-   ]
-  },
-  {
-   "text": "EIGHT NAVIES DRILL IN WEST PHILIPPINE SEA · CHINA SITS OUT",
-   "date": "2026-09-25",
-   "src": [
-    {
-     "pub": "Philippine News Agency",
-     "date": "2026-09-25",
-     "url": "https://www.pna.gov.ph/articles/1284825"
-    }
-   ]
-  },
-  {
-   "text": "TAIWAN TRACKS 16 PLA AIRCRAFT AND SHIPS IN 24 HOURS",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "CNA / Taiwan MND",
-     "date": "2026-09-26",
-     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
-    }
-   ]
-  },
-  {
-   "text": "RUSSIA–UKRAINE STRIKE WAR: AT LEAST 16 KILLED IN 24 HOURS",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "France 24 / AFP",
-     "date": "2026-09-26",
-     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
+     "pub": "Japan Today",
+     "date": "2026-09-27",
+     "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
     }
    ]
   }
  ],
  "briefs": [
   {
-   "text": "Two U.S. carriers (George Washington, George H.W. Bush) are tied down on the Iran blockade in the Arabian Sea — 2 turns to break away.",
-   "date": "2026-09-26",
+   "text": "Hormuz stays shut: Washington rejected Iran's seven-day reopen plan; Tehran holds its conditions. Two U.S. carriers remain on the Arabian Sea blockade (2 turns to break away).",
+   "date": "2026-09-27",
    "src": [
+    {
+     "pub": "DW",
+     "date": "2026-09-27",
+     "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
+    },
     {
      "pub": "The War Zone",
      "date": "2026-09-23",
      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    },
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
     }
    ]
   },
   {
-   "text": "Abraham Lincoln was homebound after ~307 days at sea when the crisis broke; Ronald Reagan is fresh out of maintenance.",
+   "text": "South China Sea: China blocked a Philippine Second Thomas Shoal resupply (Sept 24–25), then ran a PLA naval-air drill at Scarborough Shoal (Sept 27).",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Reuters",
+     "date": "2026-09-25",
+     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+    },
+    {
+     "pub": "Xinhua",
+     "date": "2026-09-27",
+     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+    }
+   ]
+  },
+  {
+   "text": "Abraham Lincoln is homebound after ~307 days; Ronald Reagan is mission-ready out of maintenance. Pacific carrier presence is thin.",
    "date": "2026-09-23",
    "src": [
     {
@@ -638,18 +732,13 @@
    ]
   },
   {
-   "text": "The ~$14B Taiwan arms package was still on hold and the summit produced no Taiwan deal.",
+   "text": "The ~$14B Taiwan arms package remains under review after the U.S.–China summit produced no Taiwan deal.",
    "date": "2026-09-26",
    "src": [
     {
      "pub": "Reuters",
      "date": "2026-09-26",
      "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
-    },
-    {
-     "pub": "Focus Taiwan",
-     "date": "2026-09-26",
-     "url": "https://focustaiwan.tw/politics/202609260008"
     }
    ]
   }
@@ -658,13 +747,13 @@
   {
    "id": "hormuz-shut",
    "title": "Hormuz stays shut",
-   "text": "Washington rejects Iran's offer to reopen the Strait of Hormuz. Tankers keep queuing; war-risk premiums climb.",
-   "date": "2026-09-26",
+   "text": "Washington rejected Iran's reopen plan; Tehran holds its conditions. Tankers keep queuing; war-risk premiums climb.",
+   "date": "2026-09-27",
    "src": [
     {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+     "pub": "DW",
+     "date": "2026-09-27",
+     "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
     }
    ],
    "fx": {
@@ -673,16 +762,46 @@
    "w": 2
   },
   {
-   "id": "arms-hold",
-   "title": "Taiwan arms package still frozen",
-   "text": "The ~$14B sale stays under review — U.S. stockpiles and factories are stretched across three theaters.",
-   "date": "2026-09-26",
+   "id": "scs-block",
+   "title": "Second Thomas Shoal resupply blocked",
+   "text": "China Coast Guard and PLAN obstruct a Philippine resupply to the grounded Sierra Madre. Manila calls the maneuvers a collision risk. Allies watch the South China Sea harden.",
+   "date": "2026-09-25",
    "src": [
     {
-     "pub": "Focus Taiwan",
-     "date": "2026-09-26",
-     "url": "https://focustaiwan.tw/politics/202609260008"
-    },
+     "pub": "Reuters",
+     "date": "2026-09-25",
+     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+    }
+   ],
+   "fx": {
+    "tension": 4,
+    "will_blue": 1
+   },
+   "w": 2
+  },
+  {
+   "id": "scarborough-drill",
+   "title": "PLA drills at Scarborough Shoal",
+   "text": "PLA Southern Theater runs a joint naval-air exercise around Scarborough Shoal. Gray-zone pressure rises across the South China Sea.",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Xinhua",
+     "date": "2026-09-27",
+     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+    }
+   ],
+   "fx": {
+    "tension": 3
+   },
+   "w": 2
+  },
+  {
+   "id": "arms-hold",
+   "title": "Taiwan arms package still frozen",
+   "text": "The ~$14B U.S. arms package for Taiwan remains under review after the summit. Taipei presses; stockpile limits remain real.",
+   "date": "2026-09-26",
+   "src": [
     {
      "pub": "Reuters",
      "date": "2026-09-26",
@@ -693,18 +812,18 @@
     "will_red": 1.5,
     "tension": 2
    },
-   "w": 1.5
+   "w": 1
   },
   {
    "id": "summit-null",
    "title": "Summit ends, no Taiwan deal",
-   "text": "Beijing repeats that Taiwan is its 'core of core interests'. Washington says its policy is unchanged. Markets shrug; militaries don't.",
+   "text": "The U.S.–China summit closes without a public Taiwan breakthrough. Both sides keep talking; nothing settles.",
    "date": "2026-09-26",
    "src": [
     {
-     "pub": "Taipei Times",
-     "date": "2026-09-27",
-     "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
+     "pub": "Reuters",
+     "date": "2026-09-26",
+     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
     }
    ],
    "fx": {
@@ -713,78 +832,75 @@
    "w": 1
   },
   {
-   "id": "admm-drill",
-   "title": "Eight navies drill in the West Philippine Sea",
-   "text": "ADMM-Plus warships from the Philippines, U.S., Japan, Australia, India, New Zealand, Singapore and Brunei sail together. China stays away.",
-   "date": "2026-09-25",
+   "id": "ukraine-drone-wave",
+   "title": "2,200 drones in a week",
+   "text": "Russia launches more than 2,200 attack drones in one week against Ukraine. Allied interceptor stocks feel the drain.",
+   "date": "2026-09-27",
    "src": [
     {
-     "pub": "Philippine News Agency",
-     "date": "2026-09-25",
-     "url": "https://www.pna.gov.ph/articles/1284825"
+     "pub": "CNA / Reuters",
+     "date": "2026-09-27",
+     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+    }
+   ],
+   "fx": {
+    "pac3": -3,
+    "money_blue": -1,
+    "tension": 2
+   },
+   "w": 2
+  },
+  {
+   "id": "pla-pressure",
+   "title": "PLA probes around Taiwan",
+   "text": "Routine PLA air and naval activity continues around Taiwan even on quieter days. Gray-zone tempo never fully stops.",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Taiwan MND",
+     "date": "2026-09-27",
+     "url": "https://www.mnd.gov.tw/en/Publication/87841"
+    }
+   ],
+   "fx": {
+    "tension": 2
+   },
+   "w": 1
+  },
+  {
+   "id": "dprk-hgv",
+   "title": "North Korea hypersonic test",
+   "text": "Pyongyang tests a new hypersonic-glide short-range missile and extended-range rockets. Allied air and missile defense planners take note.",
+   "date": "2026-09-23",
+   "src": [
+    {
+     "pub": "USNI News",
+     "date": "2026-09-23",
+     "url": "https://news.usni.org/2026/09/23/north-korea-tests-new-hypersonic-missile"
+    }
+   ],
+   "fx": {
+    "tension": 3,
+    "will_blue": -1
+   },
+   "w": 1,
+   "min_turn": 2
+  },
+  {
+   "id": "keen-sword-prep",
+   "title": "Japan counterstrike missiles enter drills",
+   "text": "Japan plans Type-25 long-range missiles in the October Keen Sword exercise with the U.S. Deterrence signaling, not a live shoot.",
+   "date": "2026-09-27",
+   "src": [
+    {
+     "pub": "Japan Today",
+     "date": "2026-09-27",
+     "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
     }
    ],
    "fx": {
     "will_blue": 1.5,
     "tension": 1
-   },
-   "w": 1
-  },
-  {
-   "id": "pla-pressure",
-   "title": "PLA probes around Taiwan",
-   "text": "Aircraft, warships and coast guard hulls ring the island; one jet crosses the median line. Taiwan scrambles fighters and coastal missiles.",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "CNA / Taiwan MND",
-     "date": "2026-09-26",
-     "url": "https://www.cna.com.tw/news/aipl/202609260027.aspx"
-    }
-   ],
-   "fx": {
-    "tension": 3
-   },
-   "w": 1
-  },
-  {
-   "id": "patriot-drain",
-   "title": "Interceptors spread thin",
-   "text": "Russia's drone-and-missile waves on Ukraine keep draining air-defense stocks. Every PAC-3 fired in Europe is one fewer for the Pacific.",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "France 24 / AFP",
-     "date": "2026-09-26",
-     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
-    }
-   ],
-   "fx": {
-    "pac3": -3,
-    "money_blue": -1
-   },
-   "w": 1.5
-  },
-  {
-   "id": "refinery-strikes",
-   "title": "Refinery strikes rattle oil markets",
-   "text": "Long-range drones hit Russian refineries while Kyiv is struck again. Fuel prices tick up worldwide.",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "France 24 / AFP",
-     "date": "2026-09-26",
-     "url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes"
-    },
-    {
-     "pub": "LB.ua (Ukraine General Staff)",
-     "date": "2026-09-26",
-     "url": "https://en.lb.ua/news/2026/09/26/43102_205_clashes_reported_front_24.html"
-    }
-   ],
-   "fx": {
-    "oil": 6,
-    "food": 4
    },
    "w": 1
   }
@@ -4945,33 +5061,33 @@
   ]
  },
  "pdb": {
-  "as_of": "2026-09-27",
+  "as_of": "2026-09-28",
   "role": "briefer",
   "clips": {
-   "af2471f9": {
-    "f": "pdb-0.mp3?v=af2471f99b5b",
-    "d": 5.26,
-    "s": "9b5b2e6952"
+   "d2b9e4a7": {
+    "f": "pdb-0.mp3?v=d2b9e4a7451f",
+    "d": 4.85,
+    "s": "451fc006dd"
    },
-   "d602364c": {
-    "f": "pdb-1.mp3?v=d602364ca9ec",
-    "d": 11.52,
-    "s": "a9ec604049"
+   "07728efe": {
+    "f": "pdb-1.mp3?v=07728efeb3f3",
+    "d": 15.07,
+    "s": "b3f318eae1"
    },
-   "1c8a85ac": {
-    "f": "pdb-2.mp3?v=1c8a85acc27a",
-    "d": 11.93,
-    "s": "c27a4f6d91"
+   "abe9e407": {
+    "f": "pdb-2.mp3?v=abe9e407f278",
+    "d": 8.42,
+    "s": "f278f94120"
    },
-   "502d24b2": {
-    "f": "pdb-3.mp3?v=502d24b24d00",
-    "d": 6.98,
-    "s": "4d0009463b"
+   "e380cd0c": {
+    "f": "pdb-3.mp3?v=e380cd0cbb60",
+    "d": 14.83,
+    "s": "bb60d8dcc3"
    },
-   "ab1a3851": {
-    "f": "pdb-4.mp3?v=ab1a385145e5",
-    "d": 7.15,
-    "s": "45e532d4a2"
+   "6de090e1": {
+    "f": "pdb-4.mp3?v=6de090e1f607",
+    "d": 13.08,
+    "s": "f607639c11"
    },
    "83deff69": {
     "f": "pdb-5.mp3?v=83deff69a077",
