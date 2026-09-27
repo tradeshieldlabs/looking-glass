@@ -35,6 +35,8 @@ Live file: https://tradeshieldlabs.github.io/looking-glass/world-data.json. The 
 | `events[].w` | number (default 1) | Draw weight. |
 | `events[].min_turn` | number (default 2) | Earliest turn the event can fire. |
 | `media` | `[{ url, caption, credit }]` | Optional images shown lazily in the situation panel. Use repo-relative paths (e.g. `media/foo.jpg`) or https URLs. |
+| `weather` | machine-written (3c.2) | Morning weather snapshot: `{ at, src, days[7], n: { zone: [[code, gust, rain, cloud, wave, wind] ×7] }, now, storms: [{ name, lat, lon, kmh, … }] }` from Open-Meteo + GDACS. Written by `tools/wx_snapshot.mjs` (run automatically by `publish_data.py`). The game fetches live weather itself and only uses this snapshot when the live fetch fails. **Do not edit by hand.** |
+| `pdb` | machine-written (3c.2) | Daily Brief voice map `{ as_of, role, clips: { hash: { f: "pdb-N.mp3?v=…", d } } }`. Written by `tools/pdb_render.py` (run automatically by `publish_data.py`), which also renders `audio/pdb-N.mp3`. **Do not edit by hand.** |
 | `intros` | `{ file }` | Intro films are listed in `media/intros.json` (also editable without a rebuild). |
 
 `src` is a list of `{ pub, date, title?, url }`. The game shows "pub, date". Keep the URL for audit.
@@ -50,4 +52,5 @@ Live file: https://tradeshieldlabs.github.io/looking-glass/world-data.json. The 
 2. `node tools/validate_world_data.mjs`. This checks the schema plus unit types and locations against the game tables.
 3. `.venv/bin/python tools/publish_data.py "Data: <what changed>"`. This validates, copies the file to the root `world-data.json`, uploads only that file to GitHub Pages, and waits until the live file matches.
 4. Commit `src/world-data.json` + `world-data.json` in `/workspace/game`.
+`publish_data.py` also (best effort, never blocking) refreshes the `weather` snapshot and re-renders the 📰 Today's Brief voice (`audio/pdb-N.mp3`, uploaded in the same commit). Today's Brief is built from `situation` (summary, top 3 flashpoints by `level`, `fleet`) + the weather, so a good `situation.summary` and flashpoint `title`s make a good brief.
 Players get the new data the next time the game starts. No game rebuild or version bump is needed.
