@@ -1,0 +1,44 @@
+{
+ "name": "LOOKING GLASS — Global War Simulation",
+ "short_name": "Looking Glass",
+ "description": "Mobile-first strategic war simulation on real public data. Fictional leaders.",
+ "id": "./",
+ "start_url": "./?pwa=1",
+ "scope": "./",
+ "display": "fullscreen",
+ "display_override": [
+  "fullscreen",
+  "standalone"
+ ],
+ "orientation": "any",
+ "background_color": "#05080d",
+ "theme_color": "#05080d",
+ "categories": [
+  "games",
+  "strategy"
+ ],
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
