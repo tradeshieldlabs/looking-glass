@@ -1,20 +1,19 @@
 {
  "schema": 1,
- "updated": "2026-09-28T06:00:00+09:00",
- "as_of": "2026-09-28",
+ "updated": "2026-09-29T06:00:00+09:00",
+ "as_of": "2026-09-29",
  "sources": [
-  "TWZ 'Where Are The Aircraft Carriers?: September 23, 2026' (twz.com)",
-  "USNI News / Reuters / Philippine Coast Guard reporting on Second Thomas Shoal (Sept 25, 2026)",
-  "Xinhua / PLA Southern Theater Command — Scarborough (Huangyan Dao) joint naval-air exercise (Sept 27, 2026)",
-  "Taiwan MND PLA activity bulletin (Sept 26–27, 2026); CNA",
-  "DW / Reuters / Al Jazeera — Hormuz stalemate after U.S. rejection (Sept 26–27, 2026)",
-  "CNA / Reuters — Russia–Ukraine strike wave (Sept 27, 2026)",
-  "USNI News / Janes / Korea Herald — DPRK hypersonic and MLRS tests (Sept 20–24, 2026)",
+  "USNI News — Theodore Roosevelt deploys; Abraham Lincoln near Hawaii (Sept 28, 2026)",
+  "USNI News — China Scarborough expanded-zone claim / WZ-7 drone drill (Sept 28, 2026)",
+  "Philippine Star — U.S. condemns Ayungin (Second Thomas) blocking maneuvers (Sept 28, 2026)",
+  "Taiwan MND PLA activity bulletin (Sept 27–28, 2026)",
+  "AP / RBC-Ukraine — Russia drone wave; 7+ killed Sept 28 (2026)",
+  "DW / Al Jazeera — Hormuz stalemate after U.S. rejection (Sept 27, 2026)",
+  "Defense News — EU defense priority areas for common spending (Sept 28, 2026)",
   "Japan Today — Keen Sword / Type-25 counterstrike missile drill planning (Sept 27, 2026)"
  ],
  "note": "Starting positions are general approximations from open sources. Real: assets, places and reported events. Fictional: all leaders, the social feed, and the war itself. Updated daily by the intel routine (DATA_SCHEMA.md).",
  "start": {
-  "CSG@phs": "USS Abraham Lincoln (CVN-72)",
   "CSG@cpa": "USS Theodore Roosevelt (CVN-71)",
   "CSG@nep": "USS Ronald Reagan (CVN-76)",
   "DDG@phs": "USS Frank E. Petersen Jr. (DDG-121)",
@@ -51,10 +50,11 @@
   "GORSH@soj": "Varyag (011), Pacific Fleet flagship",
   "GORSH@car": "Admiral Gorshkov (454)",
   "GORSH@nrw": "Admiral Kasatonov (461)",
-  "SSK@soj": "Hero Kim Kun Ok (841)"
+  "SSK@soj": "Hero Kim Kun Ok (841)",
+  "CSG@haw": "USS Abraham Lincoln (CVN-72)"
  },
  "readiness": {
-  "as_of": "2026-09-26",
+  "as_of": "2026-09-29",
   "note": "Mission-capable = able to do at least one assigned mission. 'est.' = estimate from public reporting where no official figure exists. No new official MC-rate release in this 24–48h window.",
   "types": {
    "F35": {
@@ -216,24 +216,67 @@
  },
  "whats_new": [
   {
-   "date": "2026-09-28",
-   "text": "South China Sea heats up: China Coast Guard and PLAN blocked a Philippine resupply run to Second Thomas Shoal (Sept 24–25), then the PLA Southern Theater ran a joint naval-air drill around Scarborough Shoal (Sept 27).",
+   "date": "2026-09-29",
+   "text": "Carrier shift: USS Theodore Roosevelt (CVN-71) deployed from San Diego on Sept 27 for an expected extended Middle East deployment to relieve USS George Washington; USS Abraham Lincoln (CVN-72) was near Hawaii homebound with DDG-121.",
    "src": [
     {
-     "pub": "Reuters",
-     "date": "2026-09-25",
-     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
-    },
-    {
-     "pub": "Xinhua",
-     "date": "2026-09-27",
-     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   {
-   "date": "2026-09-28",
-   "text": "Hormuz stalemate hardens: after Washington rejected Tehran's seven-day reopen plan, Iran said it will not drop its conditions; two U.S. carriers stay on the Arabian Sea blockade.",
+   "date": "2026-09-29",
+   "text": "South China Sea: after the Ayungin resupply block, PLA/CCG Scarborough drills showcased a WZ-7 Soaring Dragon drone and boarding rehearsals; Chinese state media claimed control beyond 24 nm. The U.S. condemned China's dangerous maneuvers.",
+   "src": [
+    {
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+     "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
+    },
+    {
+     "pub": "Philippine Star",
+     "date": "2026-09-28",
+     "title": "US condemns China's dangerous maneuvers in Ayungin",
+     "url": "https://www.philstar.com/headlines/2026/09/28/2559419/us-condemns-chinas-dangerous-maneuvers-ayungin"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "text": "Russia–Ukraine: AP reports at least seven killed and 80+ wounded on Sept 28 in round-the-clock drone/missile strikes (Kyiv Academy of Sciences hit); Ukraine reported 165 drones overnight.",
+   "src": [
+    {
+     "pub": "AP",
+     "date": "2026-09-28",
+     "title": "Russian drones hammer apartments, offices and a cultural landmark in Ukraine, killing 7",
+     "url": "https://www.seattletimes.com/nation-world/world/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
+    },
+    {
+     "pub": "RBC-Ukraine",
+     "date": "2026-09-28",
+     "title": "Russia launches 165 drones at Ukraine on September 28",
+     "url": "https://newsukraine.rbc.ua/news/russia-launches-drones-from-six-directions-1790576834.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "text": "Taiwan ADIZ Sept 27–28: 3 PLA aircraft, 5 PLAN ships, 4 official ships; one median-line crossing into the northern ADIZ (Taiwan MND).",
+   "src": [
+    {
+     "pub": "Taiwan MND",
+     "date": "2026-09-28",
+     "url": "https://www.mnd.gov.tw/en/news/plaact/87843"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "text": "Hormuz remains shut after Washington rejected Iran's seven-day reopen plan; two U.S. carriers stay on the Arabian Sea blockade while Roosevelt sails as expected relief.",
    "src": [
     {
      "pub": "DW",
@@ -241,42 +284,27 @@
      "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
     },
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   {
    "date": "2026-09-28",
-   "text": "Russia–Ukraine drone/missile wave: at least eight killed on Sept 27; Kyiv says Russia launched more than 2,200 attack drones in one week — interceptor stocks stay under pressure.",
+   "text": "EU defense ministers agreed five priority areas to channel common defense spending (drones, air defense, maritime security and related lines) — Defense News Sept 28.",
    "src": [
     {
-     "pub": "CNA / Reuters",
-     "date": "2026-09-27",
-     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+     "pub": "Defense News",
+     "date": "2026-09-28",
+     "title": "EU nails down five defense priority areas to channel common spending",
+     "url": "https://www.defensenews.com/global/europe/2026/09/28/eu-nails-down-five-defense-priority-areas-to-channel-common-spending/"
     }
    ]
   },
   {
-   "date": "2026-09-28",
-   "text": "Taiwan ADIZ quieter Sept 26–27 (2 PLA aircraft, 5 PLAN ships, 6 official ships). ~$14B U.S. arms package for Taiwan still under review after the Washington summit.",
-   "src": [
-    {
-     "pub": "Taiwan MND",
-     "date": "2026-09-27",
-     "url": "https://www.mnd.gov.tw/en/Publication/87841"
-    },
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-28",
+   "date": "2026-09-27",
    "text": "Japan plans to put Type-25 long-range surface-to-ship missiles into the October Keen Sword U.S.–Japan drill (no live firing planned).",
    "src": [
     {
@@ -285,56 +313,18 @@
      "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
     }
    ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "U.S.–China summit in Washington ends with no public breakthrough on Taiwan; the ~$14B U.S. arms package for Taiwan is still on hold.",
-   "src": [
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
-    },
-    {
-     "pub": "Taipei Times",
-     "date": "2026-09-27",
-     "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
-    },
-    {
-     "pub": "Focus Taiwan",
-     "date": "2026-09-26",
-     "url": "https://focustaiwan.tw/politics/202609260008"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "text": "Washington rejects an Iranian offer to reopen the Strait of Hormuz; two U.S. carriers (George Washington, George H.W. Bush) stay on the CENTCOM blockade — they now start the game in the Arabian Sea, committed for 2 turns.",
-   "src": [
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
-    },
-    {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    }
-   ]
   }
  ],
  "situation": {
-  "as_of": "2026-09-28",
-  "summary": "Tense and tightening: the South China Sea saw a blocked Philippine resupply and a PLA Scarborough drill, Hormuz stays shut after Iran held its terms, and two U.S. carriers remain stuck on the Iran blockade while the Western Pacific carrier heads home.",
+  "as_of": "2026-09-29",
+  "summary": "Carrier shift underway: Theodore Roosevelt left San Diego for an expected Middle East relief while Lincoln nears Hawaii homebound; two U.S. carriers stay on the Hormuz blockade. South China Sea pressure rose after a blocked Ayungin resupply, a Scarborough drill with a WZ-7 drone, and a U.S. condemnation — Hormuz remains shut.",
   "flashpoints": [
    {
     "id": "hormuz",
     "region": "Strait of Hormuz / Iran",
-    "title": "Hormuz stalemate: Iran holds its terms",
-    "text": "Washington rejected Tehran's seven-day plan to reopen the Strait of Hormuz. Iran says it will not drop conditions (end hostilities, lift the port blockade, oil sanctions and frozen funds). The waterway remains largely closed to normal shipping; two U.S. carriers stay on the CENTCOM blockade.",
-    "date": "2026-09-27",
+    "title": "Hormuz stalemate holds",
+    "text": "Washington rejected Tehran's seven-day plan to reopen the Strait of Hormuz. Iran says it will not drop conditions (end hostilities, lift the port blockade, oil sanctions and frozen funds). The waterway remains largely closed; two U.S. carriers (George Washington, George H.W. Bush) stay on the CENTCOM blockade while Theodore Roosevelt deploys as expected relief.",
+    "date": "2026-09-28",
     "level": 4,
     "src": [
      {
@@ -348,19 +338,19 @@
       "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer"
      },
      {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
      }
     ]
    },
    {
     "id": "scs-ayungin",
     "region": "South China Sea",
-    "title": "China blocks Second Thomas Shoal resupply",
-    "text": "Philippine Coast Guard says China Coast Guard and PLAN vessels obstructed a Sept 24 resupply to troops on the grounded BRP Sierra Madre at Second Thomas Shoal (Ayungin). No collision or injuries reported; Manila called the maneuvers a serious collision risk. First such public block since the 2024 provisional understanding.",
-    "date": "2026-09-25",
+    "title": "U.S. condemns Ayungin blocking; resupply still disrupted",
+    "text": "After China Coast Guard and PLAN vessels obstructed a Sept 24 Philippine resupply to BRP Sierra Madre at Second Thomas Shoal (Ayungin), the U.S. embassy in Manila condemned 'dangerous blocking' and escalatory tactics that risked collision. Manila says three PLAN warships and five CCG vessels interfered; the RoRe mission was suspended.",
+    "date": "2026-09-28",
     "level": 3,
     "src": [
      {
@@ -369,29 +359,31 @@
       "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
      },
      {
-      "pub": "USNI News",
-      "date": "2026-09-25",
-      "url": "https://news.usni.org/2026/09/25/chinese-cutters-warships-block-philippine-resupply-mission-to-second-thomas-shoal"
+      "pub": "Philippine Star",
+      "date": "2026-09-28",
+      "title": "US condemns China's dangerous maneuvers in Ayungin",
+      "url": "https://www.philstar.com/headlines/2026/09/28/2559419/us-condemns-chinas-dangerous-maneuvers-ayungin"
      }
     ]
    },
    {
     "id": "scarborough",
     "region": "South China Sea",
-    "title": "PLA naval-air drill at Scarborough Shoal",
-    "text": "PLA Southern Theater Command ran a joint naval and air training exercise in the waters and airspace around Scarborough Shoal (Huangyan Dao) on Sept 27. Beijing called it a response to acts that 'undermined regional peace'; the drill comes days after the Second Thomas Shoal resupply block.",
-    "date": "2026-09-27",
+    "title": "Scarborough drill: WZ-7 drone and expanded-zone claim",
+    "text": "PLA Southern Theater and China Coast Guard ran consecutive drills at Scarborough Shoal on Sept 27, publicly showcasing a Guizhou WZ-7 Soaring Dragon drone, KJ-500H AEW, Type 054A frigates and boarding rehearsals. Chinese state media claimed 'control' around Scarborough and Second Thomas now extends beyond 24 nautical miles.",
+    "date": "2026-09-28",
     "level": 3,
     "src": [
+     {
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+      "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
+     },
      {
       "pub": "Xinhua",
       "date": "2026-09-27",
       "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
-     },
-     {
-      "pub": "GMA News",
-      "date": "2026-09-27",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1003852/china-conducts-naval-air-exercise-around-scarborough-shoal/story/"
      }
     ]
    },
@@ -418,30 +410,37 @@
    {
     "id": "tw-adiz",
     "region": "Taiwan Strait",
-    "title": "Quieter PLA day around Taiwan",
-    "text": "Taiwan MND (6 a.m. Sept 26 to 6 a.m. Sept 27): 2 PLA aircraft sorties, 5 PLAN ships and 6 official ships around Taiwan. No median-line crossings reported that day. ROC forces responded with CAP aircraft, navy ships and coastal missiles. Routine gray-zone pressure, not a named large exercise.",
-    "date": "2026-09-27",
+    "title": "PLA day around Taiwan: 1 median-line crossing",
+    "text": "Taiwan MND (6 a.m. Sept 27 to 6 a.m. Sept 28): 3 PLA aircraft sorties, 5 PLAN ships and 4 official ships around Taiwan. 1 of 3 sorties crossed the median line into Taiwan's northern ADIZ. ROC forces responded with CAP aircraft, navy ships and coastal missiles. Still routine gray-zone tempo, not a named large exercise.",
+    "date": "2026-09-28",
     "level": 2,
     "src": [
      {
       "pub": "Taiwan MND",
-      "date": "2026-09-27",
-      "url": "https://www.mnd.gov.tw/en/Publication/87841"
+      "date": "2026-09-28",
+      "url": "https://www.mnd.gov.tw/en/news/plaact/87843"
      }
     ]
    },
    {
     "id": "ukraine",
     "region": "Ukraine / Russia",
-    "title": "Drone-missile wave: 8 killed Sept 27",
-    "text": "Russian strikes killed at least eight people across Ukraine on Sept 27 (Sumy, Zaporizhzhia, Kyiv, Odesa). Kyiv says Russia launched more than 2,200 attack drones, about 1,650 aerial bombs and 38 missiles in one week. Moscow claimed hits on telecom data centers. Interceptor demand stays high.",
-    "date": "2026-09-27",
+    "title": "Russian drones kill 7+ across Ukraine Sept 28",
+    "text": "AP: round-the-clock Russian bombardment killed at least seven and wounded more than 80 on Sept 28, hitting homes, offices, gas stations, data centers and Kyiv's National Academy of Sciences. Ukrainian Air Force reported 165 attack/decoy drones overnight (112 downed/suppressed by 0700). Kyiv also claimed strikes on Russian defense plants and oil facilities.",
+    "date": "2026-09-28",
     "level": 3,
     "src": [
      {
-      "pub": "CNA / Reuters",
-      "date": "2026-09-27",
-      "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+      "pub": "AP",
+      "date": "2026-09-28",
+      "title": "Russian drones hammer apartments, offices and a cultural landmark in Ukraine, killing 7",
+      "url": "https://www.seattletimes.com/nation-world/world/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
+     },
+     {
+      "pub": "RBC-Ukraine",
+      "date": "2026-09-28",
+      "title": "Russia launches 165 drones at Ukraine on September 28",
+      "url": "https://newsukraine.rbc.ua/news/russia-launches-drones-from-six-directions-1790576834.html"
      }
     ]
    },
@@ -483,65 +482,65 @@
   ],
   "fleet": [
    {
-    "name": "USS Abraham Lincoln (CVN-72)",
-    "where": "Philippine Sea → eastbound",
-    "status": "Homebound to San Diego after a Guam stop (Sept 19–20), ~307 days deployed. With USS Frank E. Petersen Jr. Latest open carrier tracker: Sept 23.",
-    "date": "2026-09-23",
+    "name": "USS Theodore Roosevelt (CVN-71)",
+    "where": "Pacific transit (from San Diego)",
+    "status": "Deployed Sept 27 with CVW-11 / CSG-9; expected extended Middle East deployment to relieve USS George Washington. Quiet departure (no manning the rails).",
+    "date": "2026-09-28",
     "src": [
      {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
+     }
+    ]
+   },
+   {
+    "name": "USS Abraham Lincoln (CVN-72)",
+    "where": "Near Hawaii → California",
+    "status": "Homebound after 8+ months in the Middle East without a liberty port call. With USS Frank E. Petersen Jr. (DDG-121); Petersen expected to Pearl Harbor.",
+    "date": "2026-09-28",
+    "src": [
+     {
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
      }
     ]
    },
    {
     "name": "USS George Washington (CVN-73)",
     "where": "Arabian Sea (CENTCOM)",
-    "status": "Hormuz blockade operations; came under IRGC missile attack earlier in September (embarked media). With USS Shoup.",
-    "date": "2026-09-23",
+    "status": "Hormuz blockade operations with CVW-5 and USS Shoup; entered 5th Fleet mid-August. Expected relief by Theodore Roosevelt later in cycle.",
+    "date": "2026-09-28",
     "src": [
      {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
      }
     ]
    },
    {
     "name": "USS George H.W. Bush (CVN-77)",
     "where": "Arabian Sea (CENTCOM)",
-    "status": "Blockade operations with George Washington. No newer public reposition this window.",
-    "date": "2026-09-23",
+    "status": "Two-carrier CENTCOM presence with George Washington; Boxer ARG also in region per USNI.",
+    "date": "2026-09-28",
     "src": [
      {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+      "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
      }
     ]
    },
    {
     "name": "USS Ronald Reagan (CVN-76)",
     "where": "Pacific Northwest",
-    "status": "Back from maintenance (docking availability), mission-ready; not reported deployed.",
-    "date": "2026-09-23",
-    "src": [
-     {
-      "pub": "The War Zone",
-      "date": "2026-09-23",
-      "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-     }
-    ]
-   },
-   {
-    "name": "USS Theodore Roosevelt (CVN-71)",
-    "where": "Off San Diego",
-    "status": "Training / near-term deploy prep (prior reporting cycle).",
+    "status": "Back from docking availability, mission-ready; not reported deployed.",
     "date": "2026-09-23",
     "src": [
      {
@@ -569,26 +568,27 @@
    {
     "name": "USS Canberra (LCS-30)",
     "where": "West Philippine Sea (prior)",
-    "status": "Participated in ADMM-Plus multinational sea phase (Sept 23). No new public position after the Second Thomas / Scarborough events.",
+    "status": "Participated in ADMM-Plus multinational sea phase (mid/late Sept). No new public position after Ayungin / Scarborough events.",
     "date": "2026-09-25",
     "src": [
      {
-      "pub": "Philippine News Agency",
-      "date": "2026-09-25",
-      "url": "https://www.pna.gov.ph/articles/1284825"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
      }
     ]
    },
    {
     "name": "CNS Liaoning / CNS Shandong",
     "where": "East China Sea / South China Sea (seed)",
-    "status": "No authoritative public reposition this window. PLA Southern Theater ran a Scarborough naval-air drill Sept 27 (not confirmed as carrier ops).",
-    "date": "2026-09-27",
+    "status": "No authoritative public carrier reposition this window. PLA Southern Theater Scarborough drill Sept 27 featured frigates/corvette/replenishment and a WZ-7 drone (not confirmed as carrier ops).",
+    "date": "2026-09-28",
     "src": [
      {
-      "pub": "Xinhua",
-      "date": "2026-09-27",
-      "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+      "pub": "USNI News",
+      "date": "2026-09-28",
+      "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+      "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
      }
     ]
    }
@@ -596,149 +596,152 @@
  },
  "ticker": [
   {
-   "text": "PLA JOINT NAVAL-AIR DRILL AROUND SCARBOROUGH SHOAL",
-   "date": "2026-09-27",
+   "text": "THEODORE ROOSEVELT DEPLOYS FROM SAN DIEGO · EXPECTED MIDDLE EAST RELIEF",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "Xinhua",
-     "date": "2026-09-27",
-     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   {
-   "text": "CHINA BLOCKS PHILIPPINE RESUPPLY TO SECOND THOMAS SHOAL",
-   "date": "2026-09-25",
+   "text": "ABRAHAM LINCOLN NEAR HAWAII · HOMEBOUND AFTER 8+ MONTHS",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "Reuters",
-     "date": "2026-09-25",
-     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   {
-   "text": "IRAN STICKS TO HORMUZ PLAN AFTER U.S. REJECTION",
-   "date": "2026-09-27",
+   "text": "CHINA CLAIMS EXPANDED CONTROL PAST 24 NM AT SCARBOROUGH · WZ-7 DRONE",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "DW",
-     "date": "2026-09-27",
-     "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+     "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
     }
    ]
   },
   {
-   "text": "RUSSIAN STRIKES KILL 8 ACROSS UKRAINE · 2,200+ DRONES IN A WEEK",
-   "date": "2026-09-27",
+   "text": "U.S. CONDEMNS CHINA BLOCKING OF AYUNGIN RESUPPLY",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "CNA / Reuters",
-     "date": "2026-09-27",
-     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+     "pub": "Philippine Star",
+     "date": "2026-09-28",
+     "title": "US condemns China's dangerous maneuvers in Ayungin",
+     "url": "https://www.philstar.com/headlines/2026/09/28/2559419/us-condemns-chinas-dangerous-maneuvers-ayungin"
     }
    ]
   },
   {
-   "text": "TAIWAN TRACKS QUIETER PLA DAY: 2 AIRCRAFT, 5 NAVY SHIPS",
-   "date": "2026-09-27",
+   "text": "RUSSIAN DRONES KILL 7+ ACROSS UKRAINE · 165 OVERNIGHT",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "AP",
+     "date": "2026-09-28",
+     "title": "Russian drones hammer apartments, offices and a cultural landmark in Ukraine, killing 7",
+     "url": "https://www.seattletimes.com/nation-world/world/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
+    }
+   ]
+  },
+  {
+   "text": "TAIWAN TRACKS 3 PLA AIRCRAFT · 1 MEDIAN-LINE CROSSING",
+   "date": "2026-09-28",
    "src": [
     {
      "pub": "Taiwan MND",
-     "date": "2026-09-27",
-     "url": "https://www.mnd.gov.tw/en/Publication/87841"
+     "date": "2026-09-28",
+     "url": "https://www.mnd.gov.tw/en/news/plaact/87843"
     }
    ]
   },
   {
-   "text": "$14B TAIWAN ARMS PACKAGE STILL ON HOLD AFTER SUMMIT",
-   "date": "2026-09-26",
+   "text": "TWO U.S. CARRIERS HOLD ARABIAN SEA · HORMUZ STILL SHUT",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   {
-   "text": "TWO U.S. CARRIERS HOLD THE ARABIAN SEA · LINCOLN HEADS HOME",
-   "date": "2026-09-23",
+   "text": "EU SETS FIVE DEFENSE PRIORITY AREAS FOR COMMON SPENDING",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    }
-   ]
-  },
-  {
-   "text": "JAPAN PLANS LONG-RANGE MISSILES IN OCTOBER U.S. DRILL",
-   "date": "2026-09-27",
-   "src": [
-    {
-     "pub": "Japan Today",
-     "date": "2026-09-27",
-     "url": "https://japantoday.com/category/national/update1-japan-u.s.-drill-to-start-oct.-to-involve-japan%27s-long-range-missiles"
+     "pub": "Defense News",
+     "date": "2026-09-28",
+     "title": "EU nails down five defense priority areas to channel common spending",
+     "url": "https://www.defensenews.com/global/europe/2026/09/28/eu-nails-down-five-defense-priority-areas-to-channel-common-spending/"
     }
    ]
   }
  ],
  "briefs": [
   {
-   "text": "Hormuz stays shut: Washington rejected Iran's seven-day reopen plan; Tehran holds its conditions. Two U.S. carriers remain on the Arabian Sea blockade (2 turns to break away).",
+   "text": "Carrier shift: Theodore Roosevelt left San Diego (Sept 27) for expected CENTCOM relief of George Washington; Abraham Lincoln is near Hawaii heading home. Two carriers remain on the Hormuz blockade.",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
+    }
+   ]
+  },
+  {
+   "text": "South China Sea: U.S. condemned China's Ayungin blocking; Scarborough drills featured a WZ-7 drone and a Chinese claim of control beyond 24 nautical miles.",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "Philippine Star",
+     "date": "2026-09-28",
+     "title": "US condemns China's dangerous maneuvers in Ayungin",
+     "url": "https://www.philstar.com/headlines/2026/09/28/2559419/us-condemns-chinas-dangerous-maneuvers-ayungin"
+    },
+    {
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+     "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
+    }
+   ]
+  },
+  {
+   "text": "Hormuz stays shut: Iran holds its reopen conditions after Washington's rejection. War-risk and tanker delays continue.",
    "date": "2026-09-27",
    "src": [
     {
      "pub": "DW",
      "date": "2026-09-27",
      "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432"
-    },
-    {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
     }
    ]
   },
   {
-   "text": "South China Sea: China blocked a Philippine Second Thomas Shoal resupply (Sept 24–25), then ran a PLA naval-air drill at Scarborough Shoal (Sept 27).",
-   "date": "2026-09-27",
+   "text": "Ukraine: Russian drone wave Sept 28 killed at least seven and wounded 80+; 165 drones reported overnight. Interceptor demand stays high.",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "Reuters",
-     "date": "2026-09-25",
-     "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
-    },
-    {
-     "pub": "Xinhua",
-     "date": "2026-09-27",
-     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
-    }
-   ]
-  },
-  {
-   "text": "Abraham Lincoln is homebound after ~307 days; Ronald Reagan is mission-ready out of maintenance. Pacific carrier presence is thin.",
-   "date": "2026-09-23",
-   "src": [
-    {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
-    }
-   ]
-  },
-  {
-   "text": "The ~$14B Taiwan arms package remains under review after the U.S.–China summit produced no Taiwan deal.",
-   "date": "2026-09-26",
-   "src": [
-    {
-     "pub": "Reuters",
-     "date": "2026-09-26",
-     "url": "https://www.reuters.com/world/china/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-2026-09-26/"
+     "pub": "AP",
+     "date": "2026-09-28",
+     "title": "Russian drones hammer apartments, offices and a cultural landmark in Ukraine, killing 7",
+     "url": "https://www.seattletimes.com/nation-world/world/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
     }
    ]
   }
@@ -764,13 +767,19 @@
   {
    "id": "scs-block",
    "title": "Second Thomas Shoal resupply blocked",
-   "text": "China Coast Guard and PLAN obstruct a Philippine resupply to the grounded Sierra Madre. Manila calls the maneuvers a collision risk. Allies watch the South China Sea harden.",
-   "date": "2026-09-25",
+   "text": "China Coast Guard and PLAN obstruct a Philippine resupply to the grounded Sierra Madre. Allies condemn dangerous maneuvers; the South China Sea hardens.",
+   "date": "2026-09-28",
    "src": [
     {
      "pub": "Reuters",
      "date": "2026-09-25",
      "url": "https://www.reuters.com/world/china/philippines-accuses-china-obstructing-resupply-mission-south-china-sea-2026-09-25/"
+    },
+    {
+     "pub": "Philippine Star",
+     "date": "2026-09-28",
+     "title": "US condemns China's dangerous maneuvers in Ayungin",
+     "url": "https://www.philstar.com/headlines/2026/09/28/2559419/us-condemns-chinas-dangerous-maneuvers-ayungin"
     }
    ],
    "fx": {
@@ -781,20 +790,42 @@
   },
   {
    "id": "scarborough-drill",
-   "title": "PLA drills at Scarborough Shoal",
-   "text": "PLA Southern Theater runs a joint naval-air exercise around Scarborough Shoal. Gray-zone pressure rises across the South China Sea.",
-   "date": "2026-09-27",
+   "title": "PLA expands Scarborough posture",
+   "text": "PLA/CCG drills at Scarborough showcase a high-altitude drone and boarding rehearsals as Chinese media claim control beyond 24 nautical miles. Gray-zone pressure rises.",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "Xinhua",
-     "date": "2026-09-27",
-     "url": "https://english.news.cn/20260927/b2e95ec7467d4305ac47fb0a9d1ac412/c.html"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "China Claims Expanded Zone Around Scarborough Shoal, Deploys New Drone",
+     "url": "https://news.usni.org/2026/09/28/china-claims-expanded-zone-around-scarborough-shoal-deploys-new-drone"
     }
    ],
    "fx": {
-    "tension": 3
+    "tension": 4
    },
    "w": 2
+  },
+  {
+   "id": "tr-deploy",
+   "title": "Pacific carrier sails for CENTCOM",
+   "text": "A West Coast carrier strike group deploys across the Pacific toward an expected Middle East relief. Indo-Pacific carrier cover thins further while the Hormuz fight soaks hulls.",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
+    }
+   ],
+   "fx": {
+    "tension": 2,
+    "will_blue": -1,
+    "money_blue": -1
+   },
+   "w": 2,
+   "min_turn": 2
   },
   {
    "id": "arms-hold",
@@ -833,14 +864,15 @@
   },
   {
    "id": "ukraine-drone-wave",
-   "title": "2,200 drones in a week",
-   "text": "Russia launches more than 2,200 attack drones in one week against Ukraine. Allied interceptor stocks feel the drain.",
-   "date": "2026-09-27",
+   "title": "Drone wave pounds Ukrainian cities",
+   "text": "Russia launches another mass drone strike — 165 overnight — killing civilians and hitting cultural and infrastructure sites. Allied interceptor stocks feel the drain.",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "CNA / Reuters",
-     "date": "2026-09-27",
-     "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936"
+     "pub": "AP",
+     "date": "2026-09-28",
+     "title": "Russian drones hammer apartments, offices and a cultural landmark in Ukraine, killing 7",
+     "url": "https://www.seattletimes.com/nation-world/world/russian-drones-pound-civilian-areas-as-ukraine-claims-battlefield-breakthroughs/"
     }
    ],
    "fx": {
@@ -853,13 +885,13 @@
   {
    "id": "pla-pressure",
    "title": "PLA probes around Taiwan",
-   "text": "Routine PLA air and naval activity continues around Taiwan even on quieter days. Gray-zone tempo never fully stops.",
-   "date": "2026-09-27",
+   "text": "Taiwan tracks another day of PLA air and naval activity, including a median-line ADIZ crossing. Gray-zone tempo never fully stops.",
+   "date": "2026-09-28",
    "src": [
     {
      "pub": "Taiwan MND",
-     "date": "2026-09-27",
-     "url": "https://www.mnd.gov.tw/en/Publication/87841"
+     "date": "2026-09-28",
+     "url": "https://www.mnd.gov.tw/en/news/plaact/87843"
     }
    ],
    "fx": {
@@ -903,6 +935,26 @@
     "tension": 1
    },
    "w": 1
+  },
+  {
+   "id": "eu-defense-spend",
+   "title": "Europe sets joint defense priorities",
+   "text": "EU defense ministers nail down five priority areas to channel common spending — drones, air defense and maritime security among them. Allied industrial capacity gets a nudge.",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "Defense News",
+     "date": "2026-09-28",
+     "title": "EU nails down five defense priority areas to channel common spending",
+     "url": "https://www.defensenews.com/global/europe/2026/09/28/eu-nails-down-five-defense-priority-areas-to-channel-common-spending/"
+    }
+   ],
+   "fx": {
+    "money_blue": 1,
+    "will_blue": 1
+   },
+   "w": 1,
+   "min_turn": 2
   }
  ],
  "start_extra": [
@@ -916,10 +968,10 @@
    "why": "committed to the CENTCOM Hormuz blockade",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
@@ -933,31 +985,31 @@
    "why": "committed to the CENTCOM Hormuz blockade",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   }
  ],
  "status": {
   "USS Abraham Lincoln (CVN-72)": {
-   "text": "Homebound after a Guam stop, ~307 days deployed",
-   "date": "2026-09-23",
+   "text": "Near Hawaii, homebound to California after 8+ months in the Middle East; escort USS Frank E. Petersen Jr. expected back to Pearl Harbor",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   "USS Ronald Reagan (CVN-76)": {
-   "text": "Back from maintenance, mission-ready",
-   "ready": true,
+   "text": "Back from maintenance, mission-ready; not reported deployed",
    "date": "2026-09-23",
+   "ready": true,
    "src": [
     {
      "pub": "The War Zone",
@@ -968,50 +1020,62 @@
    ]
   },
   "USS Frank E. Petersen Jr. (DDG-121)": {
-   "text": "Escorting Lincoln (Guam stop)",
-   "date": "2026-09-23",
+   "text": "Escorting Lincoln near Hawaii; expected return to Pearl Harbor (Sept 28 reporting)",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   "USS Shoup (DDG-86)": {
    "text": "With the George Washington group, CENTCOM",
-   "date": "2026-09-23",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   "USS George Washington (CVN-73)": {
-   "text": "Hormuz blockade; IRGC missile attack earlier in Sept",
-   "date": "2026-09-23",
+   "text": "Arabian Sea / CENTCOM Hormuz blockade; expected relief by Theodore Roosevelt later in deployment cycle",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   },
   "USS George H.W. Bush (CVN-77)": {
-   "text": "Hormuz blockade, Arabian Sea",
-   "date": "2026-09-23",
+   "text": "Arabian Sea / CENTCOM Hormuz blockade with George Washington and Boxer ARG",
+   "date": "2026-09-28",
    "src": [
     {
-     "pub": "The War Zone",
-     "date": "2026-09-23",
-     "title": "Where Are The Aircraft Carriers?: September 23, 2026",
-     "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
+    }
+   ]
+  },
+  "USS Theodore Roosevelt (CVN-71)": {
+   "text": "Deployed from San Diego Sept 27 with CVW-11; expected extended Middle East deployment to relieve George Washington",
+   "date": "2026-09-28",
+   "src": [
+    {
+     "pub": "USNI News",
+     "date": "2026-09-28",
+     "title": "USS Theodore Roosevelt Deploys From San Diego, USS Abraham Lincoln Near Hawaii",
+     "url": "https://news.usni.org/2026/09/28/uss-theodore-roosevelt-deploys-from-san-diego-uss-abraham-lincoln-near-hawaii"
     }
    ]
   }
@@ -5061,38 +5125,38 @@
   ]
  },
  "pdb": {
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "role": "briefer",
   "clips": {
-   "d2b9e4a7": {
-    "f": "pdb-0.mp3?v=d2b9e4a7451f",
-    "d": 4.85,
-    "s": "451fc006dd"
+   "0e79e186": {
+    "f": "pdb-0.mp3?v=0e79e18601bb",
+    "d": 5.28,
+    "s": "01bb344153"
    },
-   "07728efe": {
-    "f": "pdb-1.mp3?v=07728efeb3f3",
-    "d": 15.07,
-    "s": "b3f318eae1"
+   "ce5040fe": {
+    "f": "pdb-1.mp3?v=ce5040fea864",
+    "d": 20.66,
+    "s": "a86410a4ca"
    },
-   "abe9e407": {
-    "f": "pdb-2.mp3?v=abe9e407f278",
-    "d": 8.42,
-    "s": "f278f94120"
+   "9c9fa0b2": {
+    "f": "pdb-2.mp3?v=9c9fa0b28168",
+    "d": 7.42,
+    "s": "8168d5adf1"
    },
-   "e380cd0c": {
-    "f": "pdb-3.mp3?v=e380cd0cbb60",
-    "d": 14.83,
-    "s": "bb60d8dcc3"
+   "0fa03f54": {
+    "f": "pdb-3.mp3?v=0fa03f54e417",
+    "d": 19.63,
+    "s": "e417291488"
    },
-   "6de090e1": {
-    "f": "pdb-4.mp3?v=6de090e1f607",
-    "d": 13.08,
-    "s": "f607639c11"
+   "998c4f4b": {
+    "f": "pdb-4.mp3?v=998c4f4b2aa2",
+    "d": 20.93,
+    "s": "2aa2e00827"
    },
-   "83deff69": {
-    "f": "pdb-5.mp3?v=83deff69a077",
-    "d": 12.48,
-    "s": "a07797f4a5"
+   "4eb538d1": {
+    "f": "pdb-5.mp3?v=4eb538d1b642",
+    "d": 12.17,
+    "s": "b6426b18b4"
    },
    "ca7d35a4": {
     "f": "pdb-6.mp3?v=ca7d35a4144d",
